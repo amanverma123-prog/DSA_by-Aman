@@ -1,6 +1,6 @@
 # 🚀 Striver's DSA – Binary Search
 
-This repository contains my solutions to Binary Search problems from Striver's DSA Sheet.
+This repository contains my solutions to Binary Search problems from Striver's DSA Sheet, with a focus on patterns and optimization.
 
 ---
 
@@ -20,9 +20,14 @@ This repository contains my solutions to Binary Search problems from Striver's D
   `count_occurrences.cpp`
   → Count = last - first + 1
 
-* **LC33 – Search in Rotated Sorted Array**  
+* **LC33 – Search in Rotated Sorted Array**
   `search_rotated.cpp`
   → Modified binary search using sorted half logic
+
+* **LC81 – Search in Rotated Sorted Array II**
+  `search_rotated_duplicates.cpp`
+  → Handled duplicates using shrinking technique (`low++`, `high--`)
+
 ---
 
 ### 📌 Concept-Based Problems
@@ -39,7 +44,7 @@ This repository contains my solutions to Binary Search problems from Striver's D
 
 ## 📈 Progress
 
-* Total Problems Solved: **6**
+* Total Problems Solved: **7**
 * Topic: **Binary Search**
 
 ---
@@ -49,6 +54,7 @@ This repository contains my solutions to Binary Search problems from Striver's D
 * Binary search patterns (left bias / right bias)
 * Lower bound & upper bound
 * Floor & ceil concepts
+* Handling duplicates in rotated arrays
 * Edge case handling
 
 ---
@@ -59,4 +65,5 @@ This repository contains my solutions to Binary Search problems from Striver's D
 * Move to next topic (Arrays / Sliding Window)
 
 ## 📌 Note
+
 I consistently update this repository as I progress through the sheet.
