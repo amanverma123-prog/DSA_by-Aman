@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-25%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-26%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -77,6 +77,7 @@
 | LC 796  | Rotate String                | `rotateString-796.cpp`      |
 | —       | Check String Rotation        | `stringRotated.cpp`         |
 | LC 205  | Isomorphic String            | `isomorphicString-205.cpp`  |
+| LC 290  | Word Pattern                 | `wordPattern-290.cpp`       |
 
 ---
 
@@ -94,7 +95,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 25    |
+| Problems Solved | 26    |
 | Pattern Groups  | 7     |
 | Language        | C++   |
 
@@ -116,6 +117,11 @@
 * Overflow prevention using mathematical bounds check  
 * Importance of checking overflow BEFORE updating value  
 * Handling invalid and mixed input safely (defensive programming)  
+* Bijection mapping using two hash maps (char ↔ word)  
+* Validating pattern length with word count before processing  
+* One-pass string parsing using index-based traversal  
+* Avoiding unordered_map default insertion bugs using `.count()`  
+* Handling edge cases in mapping problems (duplicate mappings, mismatches)  
 
 ---
 
