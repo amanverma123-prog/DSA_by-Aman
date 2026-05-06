@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-26%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-27%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -44,6 +44,7 @@
 | LC 242  | Valid Anagram                    | `validAnagram-242.cpp`       |
 | LC 389  | Find the Difference              | `findTheDifference-389.cpp`  |
 | LC 1832 | Pangram Check                    | `PanagramOrNot-1832.cpp`     |
+| LC 383  | Ransom Note                      | `ransomNote-383.cpp`         |
 
 ---
 
@@ -71,13 +72,13 @@
 
 ### 🔹 String Matching / Patterns
 
-| #       | Problem                      | File                        |
-| ------- | ---------------------------- | --------------------------- |
-| LC 14   | Longest Common Prefix        | `longestCommonPrefix-14.cpp`|
-| LC 796  | Rotate String                | `rotateString-796.cpp`      |
-| —       | Check String Rotation        | `stringRotated.cpp`         |
-| LC 205  | Isomorphic String            | `isomorphicString-205.cpp`  |
-| LC 290  | Word Pattern                 | `wordPattern-290.cpp`       |
+| #       | Problem                      | File                         |
+| ------- | ---------------------------- | ---------------------------- |
+| LC 14   | Longest Common Prefix        | `longestCommonPrefix-14.cpp` |
+| LC 796  | Rotate String                | `rotateString-796.cpp`       |
+| —       | Check String Rotation        | `stringRotated.cpp`          |
+| LC 205  | Isomorphic String            | `isomorphicString-205.cpp`   |
+| LC 290  | Word Pattern                 | `wordPattern-290.cpp`        |
 
 ---
 
@@ -95,7 +96,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 26    |
+| Problems Solved | 27    |
 | Pattern Groups  | 7     |
 | Language        | C++   |
 
@@ -122,6 +123,7 @@
 * One-pass string parsing using index-based traversal  
 * Avoiding unordered_map default insertion bugs using `.count()`  
 * Handling edge cases in mapping problems (duplicate mappings, mismatches)  
+* Frequency hashing using fixed-size arrays for lowercase alphabets  
 
 ---
 
