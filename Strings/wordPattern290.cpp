@@ -2,6 +2,7 @@
 #include<unordered_map>
 #include<vector>
 using namespace std;
+// TC = O(n), SC = O(n)
 bool wordPattern(string pattern, string s) {
     unordered_map<char, string> mp;
     unordered_map<string, char> mp2;
