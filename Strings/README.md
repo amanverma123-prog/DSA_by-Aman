@@ -46,7 +46,7 @@
 | LC 1832 | Pangram Check                    | `PanagramOrNot-1832.cpp`           |
 | LC 383  | Ransom Note                      | `ransomNote-383.cpp`               |
 | LC 409  | Longest Palindrome               | `longestPalindrome-409.cpp`        |
-| —       | Sort Characters by Frequency     | `sortCharactersByFrequency.cpp`    |
+| LC 451  | Sort Characters by Frequency     | `frequencySort-451.cpp`    |
 
 ---
 
