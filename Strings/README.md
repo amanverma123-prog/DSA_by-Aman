@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-29%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-30%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -39,13 +39,14 @@
 
 ### 🔹 Hashing / Frequency Count
 
-| #       | Problem                          | File                         |
-| ------- | -------------------------------- | ---------------------------- |
-| LC 242  | Valid Anagram                    | `validAnagram-242.cpp`       |
-| LC 389  | Find the Difference              | `findTheDifference-389.cpp`  |
-| LC 1832 | Pangram Check                    | `PanagramOrNot-1832.cpp`     |
-| LC 383  | Ransom Note                      | `ransomNote-383.cpp`         |
-| LC 409  | Longest Palindrome               | `longestPalindrome-409.cpp`  |
+| #       | Problem                          | File                               |
+| ------- | -------------------------------- | ---------------------------------- |
+| LC 242  | Valid Anagram                    | `validAnagram-242.cpp`             |
+| LC 389  | Find the Difference              | `findTheDifference-389.cpp`        |
+| LC 1832 | Pangram Check                    | `PanagramOrNot-1832.cpp`           |
+| LC 383  | Ransom Note                      | `ransomNote-383.cpp`               |
+| LC 409  | Longest Palindrome               | `longestPalindrome-409.cpp`        |
+| —       | Sort Characters by Frequency     | `sortCharactersByFrequency.cpp`    |
 
 ---
 
@@ -97,7 +98,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 29    |
+| Problems Solved | 30    |
 | Pattern Groups  | 7     |
 | Language        | C++   |
 
@@ -130,6 +131,10 @@
 * Greedy usage of characters for maximizing palindrome length  
 * Using `freq - 1` to convert odd frequencies into usable even counts  
 * Efficient counting using unordered_map in string problems  
+* Sorting characters based on frequency using vectors of pairs  
+* Custom sorting logic with frequency + lexicographical ordering  
+* Reconstructing strings efficiently using repeated character insertion  
+* Understanding STL pair sorting behavior in C++  
 
 ---
 
