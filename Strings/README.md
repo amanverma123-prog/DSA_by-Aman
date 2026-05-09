@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-30%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-31%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -46,7 +46,15 @@
 | LC 1832 | Pangram Check                    | `PanagramOrNot-1832.cpp`           |
 | LC 383  | Ransom Note                      | `ransomNote-383.cpp`               |
 | LC 409  | Longest Palindrome               | `longestPalindrome-409.cpp`        |
-| LC 451  | Sort Characters by Frequency     | `frequencySort-451.cpp`    |
+| LC 451  | Sort Characters by Frequency     | `frequencySort-451.cpp`            |
+
+---
+
+### 🔹 Palindrome / Expand Around Center
+
+| #       | Problem                          | File                               |
+| ------- | -------------------------------- | ---------------------------------- |
+| LC 5    | Longest Palindromic Substring    | `longestPalindrome-5.cpp`          |
 
 ---
 
@@ -98,8 +106,8 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 30    |
-| Pattern Groups  | 7     |
+| Problems Solved | 31    |
+| Pattern Groups  | 8     |
 | Language        | C++   |
 
 ---
@@ -135,6 +143,12 @@
 * Custom sorting logic with frequency + lexicographical ordering  
 * Reconstructing strings efficiently using repeated character insertion  
 * Understanding STL pair sorting behavior in C++  
+* Expand Around Center technique for palindrome problems  
+* Difference between odd-length and even-length palindromes  
+* Optimizing brute-force `O(n³)` solution to `O(n²)`  
+* Avoiding unnecessary substring creation inside loops  
+* Two-pointer expansion strategy for substring problems  
+* Efficient palindrome detection without extra space  
 
 ---
 
