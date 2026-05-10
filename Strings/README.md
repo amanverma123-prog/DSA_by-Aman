@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Strings-teal?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-31%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-32%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -23,6 +23,14 @@
 | LC 151  | Reverse Words in String          | `reverseWords-151.cpp`    |
 | LC 58   | Length of Last Word              | `lengthOfLastword-58.cpp` |
 | LC 2390 | Removing Stars (in-place)        | `removeStars-2390.cpp`    |
+
+---
+
+### 🔹 Sliding Window / Hashing
+
+| #       | Problem                                              | File                                         |
+| ------- | ---------------------------------------------------- | -------------------------------------------- |
+| LC 3    | Longest Substring Without Repeating Characters       | `longestSubstringWithoutRepeating-3.cpp`     |
 
 ---
 
@@ -106,8 +114,8 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 31    |
-| Pattern Groups  | 8     |
+| Problems Solved | 32    |
+| Pattern Groups  | 9     |
 | Language        | C++   |
 
 ---
@@ -149,6 +157,14 @@
 * Avoiding unnecessary substring creation inside loops  
 * Two-pointer expansion strategy for substring problems  
 * Efficient palindrome detection without extra space  
+* Sliding Window technique for optimizing substring problems  
+* Using two pointers (`l` and `r`) to maintain dynamic windows  
+* Efficient duplicate handling using `unordered_set`  
+* Understanding window expansion and shrinking logic  
+* Optimizing brute-force substring search from `O(n²)` to `O(n)`  
+* Hashing-based tracking for unique character problems  
+* Importance of maintaining valid window conditions in string problems  
+* Efficient character lookup using STL hash containers  
 
 ---
 
