@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+// TC = O(n), SC = O(n)
 // Parameterized Recursion
 // void sumOfN(int i, int sum){
 //     if(i<1){
