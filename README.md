@@ -9,18 +9,19 @@ This repository contains my solutions to Data Structures and Algorithms problems
 * 💻 Language: **C++**
 * 📚 Platform: **LeetCode / Striver’s DSA Sheet**
 * 🎯 Goal: Build strong problem-solving skills for technical interviews
-* 📈 Focus: Consistency and concept clarity
+* 📈 Focus: Consistency, pattern recognition, and concept clarity
 
 ---
 
-## 🗂️ Folder Structure.
+## 🗂️ Folder Structure
 
-```
+```bash
 DSA/
- ├── Arrays/
- ├── Sorting/
+ ├── Array/
+ ├── Sorting Techniques/
  ├── Binary Search/
- ├── Strings/ (in progress)
+ ├── Strings/
+ ├── Recursion/
 ```
 
 ---
@@ -28,9 +29,10 @@ DSA/
 ## 📊 Topics Covered
 
 * ✅ Arrays
-* ✅ Sorting
+* ✅ Sorting Techniques
 * ✅ Binary Search
-* 🔄 Strings (ongoing)
+* ✅ Strings
+* 🔄 Recursion (ongoing)
 
 ---
 
@@ -39,15 +41,19 @@ DSA/
 * Understanding **time & space complexity**
 * Applying **two-pointer technique**
 * Learning **binary search patterns**
-* Writing clean and optimized code
+* Understanding **recursion flow & stack behavior**
+* Practicing **backtracking and recursive thinking**
+* Writing clean and optimized C++ code
+* Building pattern recognition for interview problems
 
 ---
 
 ## 📈 Progress
 
-* 📅 Consistently solving DSA problems
-* 🚀 Currently building strong fundamentals
-* 🧠 Focusing on patterns over memorization
+* 📅 Consistently solving DSA problems daily
+* 🚀 Currently strengthening recursion fundamentals
+* 🧠 Focusing on concepts and patterns over memorization
+* 📌 Organizing solutions topic-wise for better revision
 
 ---
 
@@ -55,10 +61,21 @@ DSA/
 
 * Explore topic-wise folders
 * Each file includes:
-
   * Problem name
   * Approach
   * Code implementation
+
+---
+
+## 🔥 Current Focus
+
+Currently learning and practicing:
+
+* Basic Recursion
+* Functional vs Parameterized Recursion
+* Backtracking Basics
+* Recursion Trees & Stack Flow
+* Problem Solving Patterns
 
 ---
 
@@ -67,6 +84,8 @@ DSA/
 * Strengthen core DSA concepts
 * Improve problem-solving speed
 * Build consistency in daily practice
+* Prepare for coding interviews and placements
+* Solve problems with optimized approaches
 
 ---
 
