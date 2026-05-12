@@ -3,7 +3,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-9%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-10%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -32,6 +32,7 @@
 | LC 231  | Power of Two                     | `powerOfTwo-231.cpp`          |
 | LC 326  | Power of Three                   | `powerOfThree-326.cpp`        |
 | LC 342  | Power of Four                    | `powerOfFour-342.cpp`         |
+| LC 342  | Fibonacci Number                 | `fibonacci-509.cpp`           |
 
 ---
 
@@ -39,7 +40,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 9     |
+| Problems Solved | 10     |
 | Pattern Groups  | 2     |
 | Language        | C++   |
 
