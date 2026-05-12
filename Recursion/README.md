@@ -3,7 +3,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-10%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-11%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -32,7 +32,8 @@
 | LC 231  | Power of Two                     | `powerOfTwo-231.cpp`          |
 | LC 326  | Power of Three                   | `powerOfThree-326.cpp`        |
 | LC 342  | Power of Four                    | `powerOfFour-342.cpp`         |
-| LC 342  | Fibonacci Number                 | `fibonacci-509.cpp`           |
+| LC 509  | Fibonacci Number                 | `fibonacci-509.cpp`           |
+| LC 3304 | Find the K-th Character in String Game I | `findKthCharacter-3304.cpp` |
 
 ---
 
@@ -40,7 +41,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 10     |
+| Problems Solved | 11    |
 | Pattern Groups  | 2     |
 | Language        | C++   |
 
@@ -57,12 +58,15 @@
 * Understanding recursion tree and stack unwinding  
 * Building answers during recursion return phase  
 * Recursive divide-by-2 pattern for logarithmic complexity  
-* Recursive divide-by-3 and divide-by-4 patterns for base-N problems
+* Recursive divide-by-3 and divide-by-4 patterns for base-N problems  
 * Time Complexity vs Space Complexity in recursion  
 * Understanding recursive call stack memory usage  
 * Practiced printing patterns using recursion  
 * Strengthened problem-solving through recursive decomposition  
 * Learned how recursion internally behaves like a stack  
+* Practiced recursive string construction and transformation  
+* Improved understanding of simulation using recursion  
+* Learned recursive expansion of strings using helper functions  
 
 ---
 
@@ -76,6 +80,8 @@ Currently focusing on:
 - Recursive flow visualization
 - Stack unwinding
 - Mathematical recursion problems
+- Recursive string manipulation
+- Simulation problems using recursion
 
 ---
 
