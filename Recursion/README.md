@@ -21,6 +21,8 @@
 | —      | Print N to 1                     | `print_N-1.cpp`           |
 | —      | Sum of First N Numbers           | `sumOfN-numbers.cpp`      |
 | —      | Factorial using Recursion        | `factorial_recursion.cpp` |
+| —      | Reverse an Array                 | `reverseArray.cpp`        |
+| —      | Palindrome Or Not                | `isPalindrome.cpp`        |
 
 ---
 
@@ -36,7 +38,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 5     |
+| Problems Solved | 7     |
 | Pattern Groups  | 2     |
 | Language        | C++   |
 
