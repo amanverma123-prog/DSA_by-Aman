@@ -3,7 +3,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-11%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-12%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -27,13 +27,21 @@
 
 ### 🔹 Recursion + Mathematical Logic
 
-| #       | Problem                          | File                          |
-| ------- | -------------------------------- | ----------------------------- |
-| LC 231  | Power of Two                     | `powerOfTwo-231.cpp`          |
-| LC 326  | Power of Three                   | `powerOfThree-326.cpp`        |
-| LC 342  | Power of Four                    | `powerOfFour-342.cpp`         |
-| LC 509  | Fibonacci Number                 | `fibonacci-509.cpp`           |
-| LC 3304 | Find the K-th Character in String Game I | `findKthCharacter-3304.cpp` |
+| #       | Problem                                   | File                              |
+| ------- | ----------------------------------------- | --------------------------------- |
+| LC 231  | Power of Two                              | `powerOfTwo-231.cpp`              |
+| LC 326  | Power of Three                            | `powerOfThree-326.cpp`            |
+| LC 342  | Power of Four                             | `powerOfFour-342.cpp`             |
+| LC 509  | Fibonacci Number                          | `fibonacci-509.cpp`               |
+| LC 3304 | Find the K-th Character in String Game I  | `findKthCharacter-3304.cpp`       |
+
+---
+
+### 🔹 Backtracking / Recursive Generation
+
+| #       | Problem                          | File                                |
+| ------- | -------------------------------- | ----------------------------------- |
+| LC 2094 | Finding 3-Digit Even Numbers     | `finding3DigitEvenNumbers-2094.cpp` |
 
 ---
 
@@ -41,8 +49,8 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 11    |
-| Pattern Groups  | 2     |
+| Problems Solved | 12    |
+| Pattern Groups  | 3     |
 | Language        | C++   |
 
 ---
@@ -67,6 +75,11 @@
 * Practiced recursive string construction and transformation  
 * Improved understanding of simulation using recursion  
 * Learned recursive expansion of strings using helper functions  
+* Practiced backtracking using choose-explore-unchoose pattern  
+* Learned handling duplicate answers using `set`  
+* Strengthened recursive permutation generation logic  
+* Learned constraint handling during recursive construction  
+* Improved understanding of recursion with state restoration (`used[]`)  
 
 ---
 
@@ -82,6 +95,8 @@ Currently focusing on:
 - Mathematical recursion problems
 - Recursive string manipulation
 - Simulation problems using recursion
+- Recursive permutation generation
+- Constraint-based recursive construction
 
 ---
 
