@@ -3,7 +3,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-12%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-13%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -39,9 +39,10 @@
 
 ### 🔹 Backtracking / Recursive Generation
 
-| #       | Problem                          | File                                |
-| ------- | -------------------------------- | ----------------------------------- |
-| LC 2094 | Finding 3-Digit Even Numbers     | `finding3DigitEvenNumbers-2094.cpp` |
+| #       | Problem                          | File                                      |
+| ------- | -------------------------------- | ----------------------------------------- |
+| LC 2094 | Finding 3-Digit Even Numbers     | `finding3DigitEvenNumbers-2094.cpp`       |
+| LC 3483 | Unique 3-Digit Even Numbers      | `unique3DigitEvenNumbers-3483.cpp`        |
 
 ---
 
@@ -49,7 +50,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 12    |
+| Problems Solved | 13    |
 | Pattern Groups  | 3     |
 | Language        | C++   |
 
@@ -80,6 +81,10 @@
 * Strengthened recursive permutation generation logic  
 * Learned constraint handling during recursive construction  
 * Improved understanding of recursion with state restoration (`used[]`)  
+* Learned recursive generation of fixed-length numeric permutations  
+* Strengthened pruning techniques for invalid recursive states  
+* Practiced uniqueness handling during recursive number construction  
+* Improved understanding of recursive state-space exploration  
 
 ---
 
@@ -97,6 +102,9 @@ Currently focusing on:
 - Simulation problems using recursion
 - Recursive permutation generation
 - Constraint-based recursive construction
+- Recursive state management
+- Pruning invalid recursive paths
+- Recursive combinational generation
 
 ---
 
