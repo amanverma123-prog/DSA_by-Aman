@@ -3,7 +3,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-13%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-14%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -46,12 +46,20 @@
 
 ---
 
+### 🔹 Recursive String Processing
+
+| #       | Problem            | File                         |
+| ------- | ------------------ | ---------------------------- |
+| LC 394  | Decode String      | `decodeString-394.cpp`       |
+
+---
+
 ## 📈 Progress
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 13    |
-| Pattern Groups  | 3     |
+| Problems Solved | 14    |
+| Pattern Groups  | 4     |
 | Language        | C++   |
 
 ---
@@ -85,6 +93,11 @@
 * Strengthened pruning techniques for invalid recursive states  
 * Practiced uniqueness handling during recursive number construction  
 * Improved understanding of recursive state-space exploration  
+* Learned recursive parsing of nested encoded strings  
+* Practiced recursion with index-by-reference traversal  
+* Improved understanding of recursive DFS-style string decoding  
+* Learned handling nested brackets using recursive stack flow  
+* Strengthened recursive string building and expansion logic  
 
 ---
 
@@ -105,6 +118,9 @@ Currently focusing on:
 - Recursive state management
 - Pruning invalid recursive paths
 - Recursive combinational generation
+- Recursive string decoding
+- Nested recursion handling
+- DFS-style recursive parsing
 
 ---
 
