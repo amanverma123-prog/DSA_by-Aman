@@ -3,7 +3,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-14%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-15%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -41,6 +41,7 @@
 
 | #       | Problem                          | File                                      |
 | ------- | -------------------------------- | ----------------------------------------- |
+| LC 78   | Subsets                          | `subsets-78.cpp`                          |
 | LC 2094 | Finding 3-Digit Even Numbers     | `finding3DigitEvenNumbers-2094.cpp`       |
 | LC 3483 | Unique 3-Digit Even Numbers      | `unique3DigitEvenNumbers-3483.cpp`        |
 
@@ -58,7 +59,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 14    |
+| Problems Solved | 15    |
 | Pattern Groups  | 4     |
 | Language        | C++   |
 
@@ -98,6 +99,12 @@
 * Improved understanding of recursive DFS-style string decoding  
 * Learned handling nested brackets using recursive stack flow  
 * Strengthened recursive string building and expansion logic  
+* Learned subset generation using recursion and backtracking  
+* Practiced pick / not-pick recursion technique  
+* Improved understanding of recursive combinational generation  
+* Learned storing recursive states into 2D vectors  
+* Strengthened recursion tree visualization for subset problems  
+* Practiced recursive backtracking with state restoration using `pop_back()`  
 
 ---
 
@@ -121,6 +128,9 @@ Currently focusing on:
 - Recursive string decoding
 - Nested recursion handling
 - DFS-style recursive parsing
+- Subset and subsequence generation
+- Pick / Not Pick recursion pattern
+- Backtracking with state restoration
 
 ---
 
