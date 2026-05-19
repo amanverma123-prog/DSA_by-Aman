@@ -44,6 +44,7 @@
 | LC 78   | Subsets                          | `subsets-78.cpp`                          |
 | LC 2094 | Finding 3-Digit Even Numbers     | `finding3DigitEvenNumbers-2094.cpp`       |
 | LC 3483 | Unique 3-Digit Even Numbers      | `unique3DigitEvenNumbers-3483.cpp`        |
+| LC 3483 | Subset With Sum Equals K         | `printAllSubSequencesSumEqualsK.cpp`      |
 
 ---
 
@@ -59,7 +60,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 16    |
+| Problems Solved | 17    |
 | Pattern Groups  | 4     |
 | Language        | C++   |
 
