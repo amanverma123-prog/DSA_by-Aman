@@ -3,7 +3,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-17%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-18%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -41,6 +41,7 @@
 
 | #       | Problem                          | File                                      |
 | ------- | -------------------------------- | ----------------------------------------- |
+| LC 39   | Combination Sum                  | `combinationSum-39.cpp`                   |
 | LC 78   | Subsets                          | `subsets-78.cpp`                          |
 | LC 2094 | Finding 3-Digit Even Numbers     | `finding3DigitEvenNumbers-2094.cpp`       |
 | LC 3483 | Unique 3-Digit Even Numbers      | `unique3DigitEvenNumbers-3483.cpp`        |
@@ -60,8 +61,8 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 17    |
-| Pattern Groups  | 4     |
+| Problems Solved | 18    |
+| Pattern Groups  | 5     |
 | Language        | C++   |
 
 ---
@@ -106,6 +107,13 @@
 * Learned storing recursive states into 2D vectors  
 * Strengthened recursion tree visualization for subset problems  
 * Practiced recursive backtracking with state restoration using `pop_back()`  
+* Learned recursive combination generation using backtracking  
+* Practiced Pick / Not Pick recursion technique for combinations  
+* Improved understanding of recursive state-space exploration  
+* Learned reuse of same element using recursion on same index  
+* Practiced backtracking with `push_back()` and `pop_back()`  
+* Strengthened pruning using target-based conditions  
+* Improved understanding of recursion tree traversal for combinations  
 
 ---
 
@@ -132,6 +140,8 @@ Currently focusing on:
 - Subset and subsequence generation
 - Pick / Not Pick recursion pattern
 - Backtracking with state restoration
+- Recursive combination generation
+- Target-based recursive pruning
 
 ---
 
