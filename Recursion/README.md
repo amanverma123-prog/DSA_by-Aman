@@ -3,7 +3,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-18%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-19%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -42,6 +42,7 @@
 | #       | Problem                          | File                                      |
 | ------- | -------------------------------- | ----------------------------------------- |
 | LC 39   | Combination Sum                  | `combinationSum-39.cpp`                   |
+| LC 40   | Combination Sum II               | `combinationSum2-40.cpp`                  |
 | LC 78   | Subsets                          | `subsets-78.cpp`                          |
 | LC 2094 | Finding 3-Digit Even Numbers     | `finding3DigitEvenNumbers-2094.cpp`       |
 | LC 3483 | Unique 3-Digit Even Numbers      | `unique3DigitEvenNumbers-3483.cpp`        |
@@ -61,7 +62,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 18    |
+| Problems Solved | 19    |
 | Pattern Groups  | 5     |
 | Language        | C++   |
 
@@ -114,6 +115,11 @@
 * Practiced backtracking with `push_back()` and `pop_back()`  
 * Strengthened pruning using target-based conditions  
 * Improved understanding of recursion tree traversal for combinations  
+* Learned duplicate handling in recursion using sorting  
+* Practiced skipping duplicate recursive states efficiently  
+* Improved understanding of unique combination generation  
+* Learned pruning optimization using sorted arrays  
+* Strengthened understanding of Combination Sum I vs II recursion patterns  
 
 ---
 
@@ -142,6 +148,8 @@ Currently focusing on:
 - Backtracking with state restoration
 - Recursive combination generation
 - Target-based recursive pruning
+- Duplicate handling in recursion
+- Optimized backtracking techniques
 
 ---
 
