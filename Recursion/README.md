@@ -3,7 +3,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-19%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-21%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -44,6 +44,8 @@
 | LC 39   | Combination Sum                  | `combinationSum-39.cpp`                   |
 | LC 40   | Combination Sum II               | `combinationSum2-40.cpp`                  |
 | LC 78   | Subsets                          | `subsets-78.cpp`                          |
+| LC 90   | Subsets II                       | `subsetsWithDup-90.cpp`                   |
+| —       | Subset Sums                      | `subsetSums.cpp`                          |
 | LC 2094 | Finding 3-Digit Even Numbers     | `finding3DigitEvenNumbers-2094.cpp`       |
 | LC 3483 | Unique 3-Digit Even Numbers      | `unique3DigitEvenNumbers-3483.cpp`        |
 | LC 3483 | Subset With Sum Equals K         | `printAllSubSequencesSumEqualsK.cpp`      |
@@ -62,7 +64,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 19    |
+| Problems Solved | 21    |
 | Pattern Groups  | 5     |
 | Language        | C++   |
 
@@ -120,6 +122,14 @@
 * Improved understanding of unique combination generation  
 * Learned pruning optimization using sorted arrays  
 * Strengthened understanding of Combination Sum I vs II recursion patterns  
+* Learned generation of unique subsets using recursion and backtracking  
+* Practiced duplicate-skipping using sorted arrays and index checks  
+* Improved understanding of subset generation with duplicate handling  
+* Strengthened recursive DFS traversal for subset problems  
+* Practiced efficient state restoration using `pop_back()` during backtracking  
+* Learned generation of subset sums using recursive exploration  
+* Practiced recursive include/exclude decision making  
+* Improved understanding of recursion tree traversal for subset sum generation  
 
 ---
 
@@ -150,6 +160,10 @@ Currently focusing on:
 - Target-based recursive pruning
 - Duplicate handling in recursion
 - Optimized backtracking techniques
+- Unique subset generation
+- Duplicate-skipping recursion optimization
+- Recursive subset sum generation
+- Include / Exclude recursion strategy
 
 ---
 
