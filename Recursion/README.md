@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-22%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-23%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -45,6 +45,7 @@
 | LC 39   | Combination Sum              | `combinationSum-39.cpp`              |
 | LC 40   | Combination Sum II           | `combinationSum2-40.cpp`             |
 | LC 216  | Combination Sum III          | `combinationSum3-216.cpp`            |
+| LC 46   | Permutations                 | `permutations-46.cpp`                |
 | LC 78   | Subsets                      | `subsets-78.cpp`                     |
 | LC 90   | Subsets II                   | `subsetsWithDup-90.cpp`              |
 | —       | Subset Sums                  | `subsetSums.cpp`                     |
@@ -66,7 +67,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 22    |
+| Problems Solved | 23    |
 | Pattern Groups  | 5     |
 | Language        | C++   |
 
@@ -140,12 +141,19 @@
 * Strengthened understanding of unique combination generation without duplicates
 * Learned controlling recursive depth using combination size `k`
 * Improved understanding of DFS-style recursive exploration with constraints
+* Learned generating all permutations using recursion and backtracking
+* Practiced in-place swapping technique for optimized space complexity
+* Improved understanding of fixing one element at a time during recursion
+* Strengthened recursive state restoration using swap backtracking
+* Learned difference between frequency-array approach and swap-based optimization
+* Practiced recursion tree visualization for permutation generation
 
 ---
 
 ## 🚀 Recursion Journey Started
 
 This folder marks the beginning of my recursion journey in DSA.
+
 Currently focusing on:
 
 * Basic recursion patterns
@@ -176,6 +184,9 @@ Currently focusing on:
 * Include / Exclude recursion strategy
 * Fixed-length recursive combination generation
 * Constraint-based backtracking with pruning
+* In-place recursive permutation generation
+* Swap-based backtracking optimization
+* Recursive state restoration using swapping
 
 ---
 
