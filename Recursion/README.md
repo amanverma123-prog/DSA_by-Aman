@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-23%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-24%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -28,13 +28,14 @@
 
 ### 🔹 Recursion + Mathematical Logic
 
-| #       | Problem                                  | File                        |
-| ------- | ---------------------------------------- | --------------------------- |
-| LC 231  | Power of Two                             | `powerOfTwo-231.cpp`        |
-| LC 326  | Power of Three                           | `powerOfThree-326.cpp`      |
-| LC 342  | Power of Four                            | `powerOfFour-342.cpp`       |
-| LC 509  | Fibonacci Number                         | `fibonacci-509.cpp`         |
-| LC 3304 | Find the K-th Character in String Game I | `findKthCharacter-3304.cpp` |
+| #       | Problem                                  | File                                 |
+| ------- | ---------------------------------------- | ------------------------------------ |
+| LC 231  | Power of Two                             | `powerOfTwo-231.cpp`                 |
+| LC 326  | Power of Three                           | `powerOfThree-326.cpp`               |
+| LC 342  | Power of Four                            | `powerOfFour-342.cpp`                |
+| LC 509  | Fibonacci Number                         | `fibonacci-509.cpp`                  |
+| LC 3304 | Find the K-th Character in String Game I | `findKthCharacter-3304.cpp`          |
+| LC 60   | Permutation Sequence                     | `permutationSequence-60.cpp`         |
 
 ---
 
@@ -67,7 +68,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 23    |
+| Problems Solved | 24    |
 | Pattern Groups  | 5     |
 | Language        | C++   |
 
@@ -147,6 +148,16 @@
 * Strengthened recursive state restoration using swap backtracking
 * Learned difference between frequency-array approach and swap-based optimization
 * Practiced recursion tree visualization for permutation generation
+* Learned generating the k-th permutation directly using factorial logic
+* Practiced Factorial Number System for permutation indexing
+* Improved understanding of mathematical optimization in recursion problems
+* Learned reducing brute-force recursion from O(n!) to O(n²)
+* Practiced recursive greedy selection using factorial blocks
+* Improved understanding of indexed permutation construction
+* Learned recursive elimination of used elements using vectors
+* Strengthened recursion with mathematical state reduction
+* Practiced recursive permutation generation without generating all permutations
+* Improved understanding of factorial grouping in lexicographical permutations
 
 ---
 
@@ -187,6 +198,12 @@ Currently focusing on:
 * In-place recursive permutation generation
 * Swap-based backtracking optimization
 * Recursive state restoration using swapping
+* Factorial Number System based recursion
+* Optimized recursive permutation generation
+* Mathematical recursion optimization
+* Recursive greedy selection techniques
+* Lexicographical permutation construction
+* Recursive state reduction using factorial blocks
 
 ---
 
