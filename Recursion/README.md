@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-24%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-25%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -41,18 +41,19 @@
 
 ### 🔹 Backtracking / Recursive Generation
 
-| #       | Problem                      | File                                 |
-| ------- | ---------------------------- | ------------------------------------ |
-| LC 39   | Combination Sum              | `combinationSum-39.cpp`              |
-| LC 40   | Combination Sum II           | `combinationSum2-40.cpp`             |
-| LC 216  | Combination Sum III          | `combinationSum3-216.cpp`            |
-| LC 46   | Permutations                 | `permutations-46.cpp`                |
-| LC 78   | Subsets                      | `subsets-78.cpp`                     |
-| LC 90   | Subsets II                   | `subsetsWithDup-90.cpp`              |
-| —       | Subset Sums                  | `subsetSums.cpp`                     |
-| LC 2094 | Finding 3-Digit Even Numbers | `finding3DigitEvenNumbers-2094.cpp`  |
-| LC 3483 | Unique 3-Digit Even Numbers  | `unique3DigitEvenNumbers-3483.cpp`   |
-| LC 3483 | Subset With Sum Equals K     | `printAllSubSequencesSumEqualsK.cpp` |
+| #       | Problem                      | File                                      |
+| ------- | ---------------------------- | ----------------------------------------- |
+| LC 39   | Combination Sum              | `combinationSum-39.cpp`                   |
+| LC 40   | Combination Sum II           | `combinationSum2-40.cpp`                  |
+| LC 216  | Combination Sum III          | `combinationSum3-216.cpp`                 |
+| LC 46   | Permutations                 | `permutations-46.cpp`                     |
+| LC 78   | Subsets                      | `subsets-78.cpp`                          |
+| LC 90   | Subsets II                   | `subsetsWithDup-90.cpp`                   |
+| LC 131  | Palindrome Partitioning      | `palindromePartitioning-131.cpp`          |
+| —       | Subset Sums                  | `subsetSums.cpp`                          |
+| LC 2094 | Finding 3-Digit Even Numbers | `finding3DigitEvenNumbers-2094.cpp`       |
+| LC 3483 | Unique 3-Digit Even Numbers  | `unique3DigitEvenNumbers-3483.cpp`        |
+| LC 3483 | Subset With Sum Equals K     | `printAllSubSequencesSumEqualsK.cpp`      |
 
 ---
 
@@ -68,7 +69,7 @@
 
 | Metric          | Value |
 | --------------- | ----- |
-| Problems Solved | 24    |
+| Problems Solved | 25    |
 | Pattern Groups  | 5     |
 | Language        | C++   |
 
@@ -158,6 +159,16 @@
 * Strengthened recursion with mathematical state reduction
 * Practiced recursive permutation generation without generating all permutations
 * Improved understanding of factorial grouping in lexicographical permutations
+* Learned palindrome partition generation using recursion and backtracking
+* Practiced recursive partitioning of strings into valid palindromic substrings
+* Improved understanding of recursion tree traversal for partition-based problems
+* Learned palindrome validation using two-pointer technique
+* Practiced recursive DFS exploration for string partitioning
+* Strengthened backtracking state restoration using `push_back()` and `pop_back()`
+* Improved understanding of choose → explore → backtrack recursion flow
+* Practiced generating all possible valid partitions recursively
+* Learned substring generation using `substr()` during recursion
+* Strengthened recursive thinking for partition and segmentation problems
 
 ---
 
@@ -204,6 +215,12 @@ Currently focusing on:
 * Recursive greedy selection techniques
 * Lexicographical permutation construction
 * Recursive state reduction using factorial blocks
+* Palindrome partition generation using recursion
+* Recursive string segmentation problems
+* DFS-based partition exploration
+* Backtracking with substring construction
+* Recursive palindrome validation techniques
+* Partition-based recursion tree visualization
 
 ---
 
