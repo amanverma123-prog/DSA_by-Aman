@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-26%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-27%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -33,6 +33,7 @@
 | LC 231 | Power of Two | `powerOfTwo-231.cpp` |
 | LC 326 | Power of Three | `powerOfThree-326.cpp` |
 | LC 342 | Power of Four | `powerOfFour-342.cpp` |
+| LC 390 | Elimination Game | `eliminationGame-390.cpp` |
 | LC 509 | Fibonacci Number | `fibonacci-509.cpp` |
 | LC 3304 | Find the K-th Character in String Game I | `findKthCharacter-3304.cpp` |
 | LC 60 | Permutation Sequence | `permutationSequence-60.cpp` |
@@ -70,7 +71,7 @@
 
 | Metric | Value |
 |---|---|
-| Problems Solved | 26 |
+| Problems Solved | 27 |
 | Pattern Groups | 5 |
 | Language | C++ |
 
@@ -180,6 +181,14 @@
 - Strengthened understanding of DFS-style board traversal
 - Learned optimization importance in recursive safety checks
 - Practiced recursive construction of all valid board configurations
+- Learned solving elimination-based problems using mathematical recursion
+- Practiced recursive reduction of problem size using divide-by-2 strategy
+- Improved understanding of recurrence relation formation
+- Learned transforming elimination sequences into smaller recursive subproblems
+- Strengthened recursive mathematical pattern recognition
+- Practiced solving simulation problems without actual simulation
+- Improved understanding of logarithmic recursion depth
+- Learned alternating-direction elimination logic through recursion
 
 ---
 
@@ -237,6 +246,11 @@ Currently focusing on:
 - Recursive pruning for valid queen placement
 - DFS-style exploration of board configurations
 - Recursive state restoration in matrix problems
+- Mathematical elimination game recursion
+- Divide-and-conquer recursive reduction
+- Recurrence relation based optimization
+- Recursive transformation of elimination sequences
+- Logarithmic-depth recursive problem solving
 
 ---
 
