@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-28%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-29%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -49,6 +49,7 @@
 | LC 216 | Combination Sum III | `combinationSum3-216.cpp` |
 | LC 46 | Permutations | `permutations-46.cpp` |
 | LC 51 | N-Queens | `nQueens-51.cpp` |
+| LC 37 | Sudoke Solver | `sudoku-37.cpp` |
 | LC 78 | Subsets | `subsets-78.cpp` |
 | LC 90 | Subsets II | `subsetsWithDup-90.cpp` |
 | LC 131 | Palindrome Partitioning | `palindromePartitioning-131.cpp` |
@@ -79,7 +80,7 @@
 
 | Metric | Value |
 |---|---|
-| Problems Solved | 28 |
+| Problems Solved | 29 |
 | Pattern Groups | 6 |
 | Language | C++ |
 
