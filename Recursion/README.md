@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Recursion-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-29%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-30%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -33,6 +33,7 @@
 | LC 231 | Power of Two | `powerOfTwo-231.cpp` |
 | LC 326 | Power of Three | `powerOfThree-326.cpp` |
 | LC 342 | Power of Four | `powerOfFour-342.cpp` |
+| LC 342 | Power (x, n) | `powerofXToN.cpp` |
 | LC 390 | Elimination Game | `eliminationGame-390.cpp` |
 | LC 509 | Fibonacci Number | `fibonacci-509.cpp` |
 | LC 3304 | Find the K-th Character in String Game I | `findKthCharacter-3304.cpp` |
@@ -80,7 +81,7 @@
 
 | Metric | Value |
 |---|---|
-| Problems Solved | 29 |
+| Problems Solved | 30 |
 | Pattern Groups | 6 |
 | Language | C++ |
 
