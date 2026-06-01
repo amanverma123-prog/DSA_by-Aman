@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-6%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-7%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -21,6 +21,7 @@
 | — | Length of Linked List | `lengthOfLL.cpp` |
 | — | Search Element in Linked List | `searchElementinLL.cpp` |
 | — | Delete a Node | `deleteANode.cpp` |
+| — | Insert a Node | `insertionInLL.cpp` |
 
 ---
 
@@ -28,7 +29,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 6 |
+| Problems Solved | 7 |
 | Pattern Groups | 1 |
 | Language | C++ |
 
@@ -42,6 +43,7 @@
 * Calculating the length of a Linked List efficiently
 * Searching for elements in a Linked List using linear traversal
 * Deleting nodes while maintaining proper link connections
+* Inserting nodes while maintaining proper link connections
 * Managing memory allocation and pointer manipulation
 * Understanding head pointer operations and edge cases
 * Difference between arrays and linked lists in memory storage
@@ -57,6 +59,7 @@
 * Linked List Traversal
 * Searching in Linked List
 * Deletion Operations
+* Insertion Operations
 * Pointer Manipulation
 * Time and Space Complexity Analysis
 
