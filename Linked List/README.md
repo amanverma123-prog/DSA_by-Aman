@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-8%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-9%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -28,6 +28,7 @@
 | # | Problem | File |
 | - | ------- | ---- |
 | 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
+| 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
 
 ---
 
@@ -35,7 +36,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 8 |
+| Problems Solved | 9 |
 | Pattern Groups | 2 |
 | Language | C++ |
 
@@ -51,9 +52,12 @@
 * Deleting nodes while maintaining proper link connections
 * Inserting nodes while maintaining proper link connections
 * Removing all occurrences of a target value from a Linked List
+* Removing duplicate nodes from a sorted Linked List
 * Handling consecutive deletions at the head of the list
 * Managing memory allocation and pointer manipulation
 * Understanding head pointer operations and edge cases
+* Using in-place deletion without extra space
+* Leveraging sorted order to simplify duplicate removal
 * Difference between arrays and linked lists in memory storage
 * Building a strong foundation for advanced Linked List problems
 
@@ -69,7 +73,9 @@
 * Deletion Operations
 * Insertion Operations
 * Removing Nodes by Value
+* Removing Duplicate Nodes
 * Multiple Node Deletion
+* Sorted Linked List Processing
 * Pointer Manipulation
 * Edge Case Handling
 * Time and Space Complexity Analysis
@@ -81,6 +87,7 @@
 | Problem | Time Complexity | Space Complexity |
 | -------- | ---------------- | ---------------- |
 | Remove Linked List Elements (LC 203) | O(n) | O(1) |
+| Remove Duplicates from Sorted List (LC 83) | O(n) | O(1) |
 
 ---
 
