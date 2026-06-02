@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-9%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-10%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -29,6 +29,7 @@
 | - | ------- | ---- |
 | 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
 | 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
+| 206 | Reverse Linked List | `LC206_ReverseLinkedList.cpp` |
 
 ---
 
@@ -36,7 +37,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 9 |
+| Problems Solved | 10 |
 | Pattern Groups | 2 |
 | Language | C++ |
 
