@@ -17,11 +17,12 @@ This repository contains my solutions to Data Structures and Algorithms problems
 
 ```bash
 DSA/
- ├── Array/
+ ├── Arrays/
  ├── Sorting Techniques/
  ├── Binary Search/
  ├── Strings/
  ├── Recursion/
+ ├── Linked List/
 ```
 
 ---
@@ -32,7 +33,8 @@ DSA/
 * ✅ Sorting Techniques
 * ✅ Binary Search
 * ✅ Strings
-* 🔄 Recursion (ongoing)
+* ✅ Recursion
+* 🔄 Linked List (ongoing)
 
 ---
 
@@ -43,6 +45,9 @@ DSA/
 * Learning **binary search patterns**
 * Understanding **recursion flow & stack behavior**
 * Practicing **backtracking and recursive thinking**
+* Mastering **linked list traversal and pointer manipulation**
+* Learning **slow & fast pointer techniques**
+* Understanding **in-place linked list operations**
 * Writing clean and optimized C++ code
 * Building pattern recognition for interview problems
 
@@ -51,7 +56,8 @@ DSA/
 ## 📈 Progress
 
 * 📅 Consistently solving DSA problems daily
-* 🚀 Currently strengthening recursion fundamentals
+* ✅ Completed core Recursion fundamentals
+* 🚀 Currently strengthening Linked List concepts
 * 🧠 Focusing on concepts and patterns over memorization
 * 📌 Organizing solutions topic-wise for better revision
 
@@ -71,10 +77,12 @@ DSA/
 
 Currently learning and practicing:
 
-* Basic Recursion
-* Functional vs Parameterized Recursion
-* Backtracking Basics
-* Recursion Trees & Stack Flow
+* Linked List Fundamentals
+* Linked List Traversal
+* Insertion & Deletion Operations
+* Fast & Slow Pointer Pattern
+* Linked List Reversal
+* Palindrome & Cycle Detection
 * Problem Solving Patterns
 
 ---
@@ -86,6 +94,24 @@ Currently learning and practicing:
 * Build consistency in daily practice
 * Prepare for coding interviews and placements
 * Solve problems with optimized approaches
+
+---
+
+## 📚 Learning Roadmap
+
+| Status | Topic |
+|---------|--------|
+| ✅ Completed | Arrays |
+| ✅ Completed | Sorting Techniques |
+| ✅ Completed | Binary Search |
+| ✅ Completed | Strings |
+| ✅ Completed | Recursion |
+| 🔄 In Progress | Linked List |
+| ⏳ Upcoming | Doubly Linked List |
+| ⏳ Upcoming | Stacks & Queues |
+| ⏳ Upcoming | Trees |
+| ⏳ Upcoming | Graphs |
+| ⏳ Upcoming | Dynamic Programming |
 
 ---
 
