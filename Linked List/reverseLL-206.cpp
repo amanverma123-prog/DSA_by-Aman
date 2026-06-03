@@ -50,16 +50,28 @@ void print(Node* head){
 // }
 
 // reverse without extra space (TC = O(n), SC = O(1))
+// Node* reverseLL(Node* head){
+//     Node* temp = head;
+//     Node* prev = NULL;
+//     while(temp != NULL){
+//         Node* front = temp->next;
+//         temp->next = prev;
+//         prev = temp;
+//         temp = front;
+//     }
+//     return prev;
+// }
+
+// Recursive Approach (TC = O(n), SC = O(n)->recursive stack space)
 Node* reverseLL(Node* head){
-    Node* temp = head;
-    Node* prev = NULL;
-    while(temp != NULL){
-        Node* front = temp->next;
-        temp->next = prev;
-        prev = temp;
-        temp = front;
-    }
-    return prev;
+    if(head == NULL || head->next == NULL)
+        return head;
+
+    Node* newHead = reverseLL(head->next);
+    Node* front = head->next;
+    front->next = head;
+    head->next = NULL;
+    return newHead;
 }
 int main(){
     vector<int> a = {1,3,5,2};
