@@ -107,7 +107,6 @@ Currently learning and practicing:
 | ✅ Completed | Strings |
 | ✅ Completed | Recursion |
 | 🔄 In Progress | Linked List |
-| ⏳ Upcoming | Doubly Linked List |
 | ⏳ Upcoming | Stacks & Queues |
 | ⏳ Upcoming | Trees |
 | ⏳ Upcoming | Graphs |
