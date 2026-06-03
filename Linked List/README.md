@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-10%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-11%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -30,6 +30,7 @@
 | 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
 | 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
 | 206 | Reverse Linked List | `LC206_ReverseLinkedList.cpp` |
+| 234 | Palindrome Linked List | `LC234_PalindromeLinkedList.cpp` |
 
 ---
 
@@ -37,8 +38,8 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 10 |
-| Pattern Groups | 2 |
+| Problems Solved | 11 |
+| Pattern Groups | 3 |
 | Language | C++ |
 
 ---
@@ -54,11 +55,16 @@
 * Inserting nodes while maintaining proper link connections
 * Removing all occurrences of a target value from a Linked List
 * Removing duplicate nodes from a sorted Linked List
+* Reversing a Linked List iteratively and recursively
+* Finding the middle of a Linked List using Slow and Fast Pointers
+* Checking whether a Linked List is a palindrome
+* Comparing two halves of a Linked List efficiently
 * Handling consecutive deletions at the head of the list
 * Managing memory allocation and pointer manipulation
 * Understanding head pointer operations and edge cases
 * Using in-place deletion without extra space
 * Leveraging sorted order to simplify duplicate removal
+* Applying in-place reversal to optimize space complexity
 * Difference between arrays and linked lists in memory storage
 * Building a strong foundation for advanced Linked List problems
 
@@ -75,6 +81,9 @@
 * Insertion Operations
 * Removing Nodes by Value
 * Removing Duplicate Nodes
+* Linked List Reversal
+* Slow & Fast Pointer Technique
+* Palindrome Detection
 * Multiple Node Deletion
 * Sorted Linked List Processing
 * Pointer Manipulation
@@ -89,6 +98,8 @@
 | -------- | ---------------- | ---------------- |
 | Remove Linked List Elements (LC 203) | O(n) | O(1) |
 | Remove Duplicates from Sorted List (LC 83) | O(n) | O(1) |
+| Reverse Linked List (LC 206) | O(n) | O(1) |
+| Palindrome Linked List (LC 234) | O(n) | O(1) |
 
 ---
 
