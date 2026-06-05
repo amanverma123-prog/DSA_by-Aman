@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-12%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-13%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -28,6 +28,7 @@
 | # | Problem | File |
 | - | ------- | ---- |
 | 2 | Add Two Numbers | `LC2_AddTwoNumbers.cpp` |
+| 19 | Remove Nth Node From End of List | `LC19_RemoveNthNodeFromEnd.cpp` |
 | 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
 | 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
 | 206 | Reverse Linked List | `LC206_ReverseLinkedList.cpp` |
@@ -39,8 +40,8 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 12 |
-| Pattern Groups | 4 |
+| Problems Solved | 13 |
+| Pattern Groups | 5 |
 | Language | C++ |
 
 ---
@@ -72,6 +73,12 @@
 * Handling Linked Lists of unequal lengths
 * Building a result Linked List dynamically
 * Simulating elementary addition using pointer traversal
+* Removing the Nth node from the end of a Linked List
+* Using Fast & Slow Pointers to achieve one-pass traversal
+* Maintaining a fixed gap between pointers
+* Deleting nodes without calculating the list length
+* Handling head node deletion efficiently
+* Applying two-pointer techniques for Linked List problems
 * Difference between arrays and linked lists in memory storage
 * Building a strong foundation for advanced Linked List problems
 
@@ -90,6 +97,10 @@
 * Removing Duplicate Nodes
 * Linked List Reversal
 * Slow & Fast Pointer Technique
+* Two Pointer Technique
+* Nth Node Removal
+* One-Pass Linked List Traversal
+* Fixed Distance Pointer Movement
 * Palindrome Detection
 * Multiple Node Deletion
 * Sorted Linked List Processing
@@ -109,6 +120,7 @@
 | Problem | Time Complexity | Space Complexity |
 | -------- | ---------------- | ---------------- |
 | Add Two Numbers (LC 2) | O(max(N, M)) | O(max(N, M)) |
+| Remove Nth Node From End of List (LC 19) | O(n) | O(1) |
 | Remove Linked List Elements (LC 203) | O(n) | O(1) |
 | Remove Duplicates from Sorted List (LC 83) | O(n) | O(1) |
 | Reverse Linked List (LC 206) | O(n) | O(1) |
@@ -116,4 +128,4 @@
 
 ---
 
-> 📌 Updated regularly as part of ongoing DSA practice on Striver's sheet and LeetCode Linked List problems.
+> 📌 Updated regularly as part of ongoing DSA practice on Striver's Sheet and LeetCode Linked List problems.
