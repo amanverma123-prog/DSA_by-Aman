@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-14%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-15%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -29,11 +29,12 @@
 | - | ------- | ---- |
 | 2 | Add Two Numbers | `LC2_AddTwoNumbers.cpp` |
 | 19 | Remove Nth Node From End of List | `LC19_RemoveNthNodeFromEnd.cpp` |
-| 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
 | 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
+| 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
 | 206 | Reverse Linked List | `LC206_ReverseLinkedList.cpp` |
 | 234 | Palindrome Linked List | `LC234_PalindromeLinkedList.cpp` |
 | 876 | Middle of the Linked List | `LC876_MiddleOfTheLinkedList.cpp` |
+| 2095 | Delete the Middle Node of a Linked List | `LC2095_DeleteMiddleNode.cpp` |
 
 ---
 
@@ -41,8 +42,8 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 14 |
-| Pattern Groups | 6 |
+| Problems Solved | 15 |
+| Pattern Groups | 5 |
 | Language | C++ |
 
 ---
@@ -80,9 +81,10 @@
 * Deleting nodes without calculating the list length
 * Handling head node deletion efficiently
 * Applying two-pointer techniques for Linked List problems
-* Locating the middle node in a single traversal
-* Understanding different pointer movement speeds
-* Recognizing the Slow & Fast Pointer pattern as a reusable interview technique
+* Deleting the middle node of a Linked List in a single traversal
+* Maintaining a previous pointer for safe node deletion
+* Combining traversal and deletion into one pass
+* Handling single-node Linked Lists as a special case
 * Difference between arrays and linked lists in memory storage
 * Building a strong foundation for advanced Linked List problems
 
@@ -104,6 +106,8 @@
 * Two Pointer Technique
 * Nth Node Removal
 * Middle Node Detection
+* Middle Node Deletion
+* Previous Pointer Tracking
 * One-Pass Linked List Traversal
 * Fixed Distance Pointer Movement
 * Palindrome Detection
@@ -131,6 +135,7 @@
 | Reverse Linked List (LC 206) | O(n) | O(1) |
 | Palindrome Linked List (LC 234) | O(n) | O(1) |
 | Middle of the Linked List (LC 876) | O(n) | O(1) |
+| Delete the Middle Node of a Linked List (LC 2095) | O(n) | O(1) |
 
 ---
 
