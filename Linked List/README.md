@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-15%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-16%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -29,6 +29,7 @@
 | - | ------- | ---- |
 | 2 | Add Two Numbers | `LC2_AddTwoNumbers.cpp` |
 | 19 | Remove Nth Node From End of List | `LC19_RemoveNthNodeFromEnd.cpp` |
+| 61 | Rotate List | `LC61_RotateList.cpp` |
 | 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
 | 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
 | 206 | Reverse Linked List | `LC206_ReverseLinkedList.cpp` |
@@ -42,8 +43,8 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 15 |
-| Pattern Groups | 5 |
+| Problems Solved | 16 |
+| Pattern Groups | 6 |
 | Language | C++ |
 
 ---
@@ -85,6 +86,12 @@
 * Maintaining a previous pointer for safe node deletion
 * Combining traversal and deletion into one pass
 * Handling single-node Linked Lists as a special case
+* Rotating a Linked List by K positions efficiently
+* Using modulo arithmetic to eliminate unnecessary rotations
+* Converting a Linked List into a circular Linked List temporarily
+* Identifying the new head and new tail after rotation
+* Breaking circular links safely to restore the Linked List
+* Optimizing a brute-force approach into an O(n) solution
 * Difference between arrays and linked lists in memory storage
 * Building a strong foundation for advanced Linked List problems
 
@@ -120,6 +127,12 @@
 * Multi-List Traversal
 * Pointer Manipulation
 * Edge Case Handling
+* Circular Linked List Technique
+* Linked List Rotation
+* Modulo Optimization
+* New Head and Tail Identification
+* Circular Link Breaking
+* Length-Based Traversal
 * Time and Space Complexity Analysis
 
 ---
@@ -130,6 +143,7 @@
 | -------- | ---------------- | ---------------- |
 | Add Two Numbers (LC 2) | O(max(N, M)) | O(max(N, M)) |
 | Remove Nth Node From End of List (LC 19) | O(n) | O(1) |
+| Rotate List (LC 61) | O(n) | O(1) |
 | Remove Linked List Elements (LC 203) | O(n) | O(1) |
 | Remove Duplicates from Sorted List (LC 83) | O(n) | O(1) |
 | Reverse Linked List (LC 206) | O(n) | O(1) |
