@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-16%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-17%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -30,8 +30,9 @@
 | 2 | Add Two Numbers | `LC2_AddTwoNumbers.cpp` |
 | 19 | Remove Nth Node From End of List | `LC19_RemoveNthNodeFromEnd.cpp` |
 | 61 | Rotate List | `LC61_RotateList.cpp` |
-| 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
 | 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
+| 141 | Linked List Cycle | `LC141_LinkedListCycle.cpp` |
+| 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
 | 206 | Reverse Linked List | `LC206_ReverseLinkedList.cpp` |
 | 234 | Palindrome Linked List | `LC234_PalindromeLinkedList.cpp` |
 | 876 | Middle of the Linked List | `LC876_MiddleOfTheLinkedList.cpp` |
@@ -43,8 +44,8 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 16 |
-| Pattern Groups | 6 |
+| Problems Solved | 17 |
+| Pattern Groups | 7 |
 | Language | C++ |
 
 ---
@@ -82,6 +83,11 @@
 * Deleting nodes without calculating the list length
 * Handling head node deletion efficiently
 * Applying two-pointer techniques for Linked List problems
+* Detecting cycles in a Linked List using Floyd's Cycle Detection Algorithm
+* Understanding the Tortoise and Hare approach
+* Using different pointer speeds to identify cycles efficiently
+* Solving cycle detection without extra memory
+* Recognizing fast and slow pointer patterns in Linked List problems
 * Deleting the middle node of a Linked List in a single traversal
 * Maintaining a previous pointer for safe node deletion
 * Combining traversal and deletion into one pass
@@ -110,6 +116,8 @@
 * Removing Duplicate Nodes
 * Linked List Reversal
 * Slow & Fast Pointer Technique
+* Floyd's Cycle Detection Algorithm
+* Cycle Detection
 * Two Pointer Technique
 * Nth Node Removal
 * Middle Node Detection
@@ -144,8 +152,9 @@
 | Add Two Numbers (LC 2) | O(max(N, M)) | O(max(N, M)) |
 | Remove Nth Node From End of List (LC 19) | O(n) | O(1) |
 | Rotate List (LC 61) | O(n) | O(1) |
-| Remove Linked List Elements (LC 203) | O(n) | O(1) |
 | Remove Duplicates from Sorted List (LC 83) | O(n) | O(1) |
+| Linked List Cycle (LC 141) | O(n) | O(1) |
+| Remove Linked List Elements (LC 203) | O(n) | O(1) |
 | Reverse Linked List (LC 206) | O(n) | O(1) |
 | Palindrome Linked List (LC 234) | O(n) | O(1) |
 | Middle of the Linked List (LC 876) | O(n) | O(1) |
