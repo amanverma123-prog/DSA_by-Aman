@@ -30,6 +30,7 @@ void print(Node* head){
     }
     cout<<endl;
 }
+// TC = O(n), SC = O(1)
 Node* findNthNode(Node* temp, int n){
     int cnt = 1;
     while(temp){
