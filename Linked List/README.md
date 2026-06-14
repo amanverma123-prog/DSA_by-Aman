@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-17%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-18%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -32,6 +32,7 @@
 | 61 | Rotate List | `LC61_RotateList.cpp` |
 | 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
 | 141 | Linked List Cycle | `LC141_LinkedListCycle.cpp` |
+| 148 | Sort List | `LC148_SortList.cpp` |
 | 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
 | 206 | Reverse Linked List | `LC206_ReverseLinkedList.cpp` |
 | 234 | Palindrome Linked List | `LC234_PalindromeLinkedList.cpp` |
@@ -44,8 +45,8 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 17 |
-| Pattern Groups | 7 |
+| Problems Solved | 18 |
+| Pattern Groups | 8 |
 | Language | C++ |
 
 ---
@@ -98,6 +99,16 @@
 * Identifying the new head and new tail after rotation
 * Breaking circular links safely to restore the Linked List
 * Optimizing a brute-force approach into an O(n) solution
+* Sorting a Linked List using Merge Sort
+* Applying Divide and Conquer on Linked Lists
+* Finding the middle node using Slow & Fast Pointers for list splitting
+* Recursively dividing a Linked List into smaller sublists
+* Merging two sorted Linked Lists efficiently
+* Understanding why Merge Sort is optimal for Linked Lists
+* Performing in-place sorting without converting the list into an array
+* Managing recursive decomposition and merge phases
+* Strengthening pointer manipulation during list merging
+* Achieving O(n log n) sorting for Linked Lists
 * Difference between arrays and linked lists in memory storage
 * Building a strong foundation for advanced Linked List problems
 
@@ -141,6 +152,14 @@
 * New Head and Tail Identification
 * Circular Link Breaking
 * Length-Based Traversal
+* Merge Sort on Linked List
+* Divide and Conquer
+* Recursive Linked List Processing
+* List Splitting
+* Sorted List Merging
+* In-Place Linked List Sorting
+* Recursive Decomposition
+* Merge Phase Optimization
 * Time and Space Complexity Analysis
 
 ---
@@ -154,6 +173,7 @@
 | Rotate List (LC 61) | O(n) | O(1) |
 | Remove Duplicates from Sorted List (LC 83) | O(n) | O(1) |
 | Linked List Cycle (LC 141) | O(n) | O(1) |
+| Sort List (LC 148) | O(n log n) | O(log n) |
 | Remove Linked List Elements (LC 203) | O(n) | O(1) |
 | Reverse Linked List (LC 206) | O(n) | O(1) |
 | Palindrome Linked List (LC 234) | O(n) | O(1) |
