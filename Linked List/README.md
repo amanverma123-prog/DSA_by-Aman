@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-18%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-19%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -32,6 +32,7 @@
 | 61 | Rotate List | `LC61_RotateList.cpp` |
 | 83 | Remove Duplicates from Sorted List | `LC83_RemoveDuplicatesFromSortedList.cpp` |
 | 141 | Linked List Cycle | `LC141_LinkedListCycle.cpp` |
+| 142 | Linked List Cycle II | `LC142_LinkedListCycleII.cpp` |
 | 148 | Sort List | `LC148_SortList.cpp` |
 | 203 | Remove Linked List Elements | `LC203_RemoveLinkedListElements.cpp` |
 | 206 | Reverse Linked List | `LC206_ReverseLinkedList.cpp` |
@@ -45,7 +46,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 18 |
+| Problems Solved | 19 |
 | Pattern Groups | 8 |
 | Language | C++ |
 
@@ -89,6 +90,12 @@
 * Using different pointer speeds to identify cycles efficiently
 * Solving cycle detection without extra memory
 * Recognizing fast and slow pointer patterns in Linked List problems
+* Finding the starting node of a cycle in a Linked List
+* Applying Floyd's Cycle Detection Algorithm beyond cycle detection
+* Understanding the mathematical proof behind cycle entry identification
+* Resetting one pointer to the head after cycle detection
+* Locating the cycle's starting point in O(1) extra space
+* Extending the Tortoise and Hare technique to solve advanced cycle problems
 * Deleting the middle node of a Linked List in a single traversal
 * Maintaining a previous pointer for safe node deletion
 * Combining traversal and deletion into one pass
@@ -129,6 +136,12 @@
 * Slow & Fast Pointer Technique
 * Floyd's Cycle Detection Algorithm
 * Cycle Detection
+* Cycle Starting Point Detection
+* Floyd's Cycle Detection Algorithm II
+* Cycle Entry Identification
+* Tortoise and Hare Algorithm
+* Mathematical Cycle Analysis
+* Pointer Synchronization
 * Two Pointer Technique
 * Nth Node Removal
 * Middle Node Detection
@@ -173,6 +186,7 @@
 | Rotate List (LC 61) | O(n) | O(1) |
 | Remove Duplicates from Sorted List (LC 83) | O(n) | O(1) |
 | Linked List Cycle (LC 141) | O(n) | O(1) |
+| Linked List Cycle II (LC 142) | O(n) | O(1) |
 | Sort List (LC 148) | O(n log n) | O(log n) |
 | Remove Linked List Elements (LC 203) | O(n) | O(1) |
 | Reverse Linked List (LC 206) | O(n) | O(1) |
