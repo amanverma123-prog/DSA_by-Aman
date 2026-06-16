@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Linked%20List-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-19%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-20%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -38,6 +38,7 @@
 | 206 | Reverse Linked List | `LC206_ReverseLinkedList.cpp` |
 | 234 | Palindrome Linked List | `LC234_PalindromeLinkedList.cpp` |
 | 876 | Middle of the Linked List | `LC876_MiddleOfTheLinkedList.cpp` |
+| 1472 | Design Browser History | `LC1472_DesignBrowserHistory.cpp` |
 | 2095 | Delete the Middle Node of a Linked List | `LC2095_DeleteMiddleNode.cpp` |
 
 ---
@@ -46,8 +47,8 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 19 |
-| Pattern Groups | 8 |
+| Problems Solved | 20 |
+| Pattern Groups | 9 |
 | Language | C++ |
 
 ---
@@ -116,6 +117,13 @@
 * Managing recursive decomposition and merge phases
 * Strengthening pointer manipulation during list merging
 * Achieving O(n log n) sorting for Linked Lists
+* Understanding Doubly Linked List structure with prev and next pointers
+* Implementing browser navigation using backward and forward traversal
+* Managing current state using pointer references
+* Clearing forward history when visiting a new page
+* Handling bidirectional traversal efficiently
+* Applying Doubly Linked Lists to real-world design problems
+* Simulating browser history operations using custom data structures
 * Difference between arrays and linked lists in memory storage
 * Building a strong foundation for advanced Linked List problems
 
@@ -173,6 +181,16 @@
 * In-Place Linked List Sorting
 * Recursive Decomposition
 * Merge Phase Optimization
+* Doubly Linked List
+* Bidirectional Traversal
+* Browser History Design
+* Prev and Next Pointer Management
+* Forward History Deletion
+* State Management Using Pointers
+* Dynamic Node Creation
+* Memory Cleanup
+* Design-Based Linked List Problems
+* Real-World Data Structure Applications
 * Time and Space Complexity Analysis
 
 ---
@@ -192,8 +210,9 @@
 | Reverse Linked List (LC 206) | O(n) | O(1) |
 | Palindrome Linked List (LC 234) | O(n) | O(1) |
 | Middle of the Linked List (LC 876) | O(n) | O(1) |
+| Design Browser History (LC 1472) | O(steps) | O(n) |
 | Delete the Middle Node of a Linked List (LC 2095) | O(n) | O(1) |
 
 ---
 
-> 📌 Updated regularly as part of ongoing DSA practice on Striver's Sheet and LeetCode Linked List problems.
+> 📌 Updated regularly as part of ongoing DSA practice on Striver's Sheet and LeetCode Linked List problems, including Singly Linked Lists, Doubly Linked Lists, Fast & Slow Pointer techniques, Cycle Detection, Merge Sort, and Linked List Design problems.
