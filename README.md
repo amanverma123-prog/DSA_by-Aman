@@ -1,97 +1,89 @@
-# 🚀 Striver's DSA Journey
+# 🔗 Striver's DSA — Bit Manipulation
 
-> C++ solutions from Striver's A2Z DSA Sheet, organized topic-wise with optimized approaches and detailed problem-solving practice.
+> C++ solutions from Striver's DSA Sheet and related Bit Manipulation practice problems, organized by fundamental bitwise concepts and optimization techniques.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
-![DSA](https://img.shields.io/badge/Track-Striver%20A2Z-orange?style=flat-square)
-![Status](https://img.shields.io/badge/Current%20Topic-Bit%20Manipulation-success?style=flat-square)
+![Topic](https://img.shields.io/badge/Topic-Bit%20Manipulation-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Problems-Updating-orange?style=flat-square)
 
 ---
 
 ## 📚 Topics Covered
 
-### ✅ Basics & Mathematics
-- Basic Programming
-- Patterns
-- Mathematics
+### ✅ Basics
+- Introduction to Bit Manipulation
+- Bitwise Operators
+- Decimal to Binary Conversion
+- Binary to Decimal Conversion
+- 1's Complement & 2's Complement
 
-### ✅ Sorting Techniques
-- Selection Sort
-- Bubble Sort
-- Insertion Sort
-- Merge Sort
-- Quick Sort
+### ✅ Bit Operations
+- Check if i-th Bit is Set or Not
+- Set the i-th Bit
+- Clear the i-th Bit
+- Toggle the i-th Bit
+- Remove the Last Set Bit
+- Count Number of Set Bits
 
-### ✅ Arrays
-- Easy Problems
-- Medium Problems
-- Hard Problems
+### ✅ XOR & Number Properties
+- XOR Properties
+- Find Odd Occurring Number
+- Single Number
+- Missing Number using XOR
+- Two Unique Numbers
 
-### ✅ Binary Search
-- 1D Binary Search
-- Binary Search on Answers
-- Search Space Reduction
+### ✅ Mathematical Bit Tricks
+- Check if Number is Power of 2
+- Divide by Powers of 2
+- Multiply by Powers of 2
+- Binary Exponentiation Basics
 
-### ✅ Strings
-- Basic String Operations
-- String Manipulation
-- Pattern-Based Problems
-
-### ✅ Recursion & Backtracking
-- Basic Recursion
-- Subsequences
-- Combination Problems
-- Permutations
-- N-Queens
-- Sudoku Solver
-- Palindrome Partitioning
-
-### ✅ Linked List
-- Singly Linked List
-- Doubly Linked List
-- Fast & Slow Pointer Techniques
-- Cycle Detection
-- Reversal Problems
-- Merge Sort on Linked List
-- DLL Operations
-
-### 🔄 Currently Learning
-- Bit Manipulation
+### 🔄 Advanced Concepts
+- Subsets using Bit Masking
+- Power Set Generation
+- Advanced XOR Problems
+- Divide Two Integers
+- Bit Manipulation Interview Problems
 
 ---
 
-## 📈 Progress
+## 📂 Folder Structure
 
-- ✅ Basics & Mathematics
-- ✅ Sorting Techniques
-- ✅ Arrays
-- ✅ Binary Search
-- ✅ Strings
-- ✅ Recursion & Backtracking
-- ✅ Linked List
-- 🔄 Bit Manipulation
-- ⏳ Stack & Queue
-- ⏳ Sliding Window & Two Pointers
-- ⏳ Heaps
-- ⏳ Greedy Algorithms
-- ⏳ Trees
-- ⏳ Binary Search Trees
-- ⏳ Graphs
-- ⏳ Dynamic Programming
-- ⏳ Tries
+```text
+Bit Manipulation/
+├── Decimal_To_Binary.cpp
+├── Binary_To_Decimal.cpp
+├── Check_Ith_Bit.cpp
+├── Set_Ith_Bit.cpp
+├── Clear_Ith_Bit.cpp
+├── Toggle_Ith_Bit.cpp
+├── Remove_Last_Set_Bit.cpp
+├── Count_Set_Bits.cpp
+└── ...
+```
+
+---
+
+## 🚀 Learning Outcomes
+
+- Understand binary representation of numbers
+- Master bitwise operators (&, |, ^, ~, <<, >>)
+- Optimize solutions using bit-level operations
+- Solve XOR-based interview problems efficiently
+- Learn bit masking techniques for advanced problems
 
 ---
 
 ## 🎯 Goal
 
-Solve the complete Striver A2Z DSA Sheet, strengthen problem-solving skills, and build a structured repository of optimized C++ solutions for coding interviews, internships, and placements.
+Master Bit Manipulation concepts, strengthen problem-solving skills, and build optimized C++ solutions for coding interviews, competitive programming, and placements.
 
 ---
 
-## 🛠️ Language
+## 🛠️ Language Used
 
 - C++
 
 ---
 
-⭐ Currently on the Bit Manipulation section after completing Linked Lists. Consistently solving problems and documenting solutions throughout the Striver A2Z DSA Journey.
+⭐ Part of my Striver's A2Z DSA Journey.
