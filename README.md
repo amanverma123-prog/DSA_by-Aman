@@ -1,89 +1,91 @@
-# 🔗 Striver's DSA — Bit Manipulation
+# 🚀 DSA Journey in C++
 
-> C++ solutions from Striver's DSA Sheet and related Bit Manipulation practice problems, organized by fundamental bitwise concepts and optimization techniques.
-
-![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
-![Topic](https://img.shields.io/badge/Topic-Bit%20Manipulation-purple?style=flat-square)
-![Problems](https://img.shields.io/badge/Problems-Updating-orange?style=flat-square)
+This repository contains my solutions to Data Structures and Algorithms problems, solved consistently as part of my learning journey.
 
 ---
 
-## 📚 Topics Covered
+## 📌 About
 
-### ✅ Basics
-- Introduction to Bit Manipulation
-- Bitwise Operators
-- Decimal to Binary Conversion
-- Binary to Decimal Conversion
-- 1's Complement & 2's Complement
-
-### ✅ Bit Operations
-- Check if i-th Bit is Set or Not
-- Set the i-th Bit
-- Clear the i-th Bit
-- Toggle the i-th Bit
-- Remove the Last Set Bit
-- Count Number of Set Bits
-
-### ✅ XOR & Number Properties
-- XOR Properties
-- Find Odd Occurring Number
-- Single Number
-- Missing Number using XOR
-- Two Unique Numbers
-
-### ✅ Mathematical Bit Tricks
-- Check if Number is Power of 2
-- Divide by Powers of 2
-- Multiply by Powers of 2
-- Binary Exponentiation Basics
-
-### 🔄 Advanced Concepts
-- Subsets using Bit Masking
-- Power Set Generation
-- Advanced XOR Problems
-- Divide Two Integers
-- Bit Manipulation Interview Problems
+- 💻 Language: **C++**
+- 📚 Platform: **LeetCode / Striver's A2Z DSA Sheet**
+- 🎯 Goal: Build strong problem-solving skills for technical interviews
+- 📈 Focus: Consistency, pattern recognition, and concept clarity
 
 ---
 
-## 📂 Folder Structure
+## 🗂️ Folder Structure
 
 ```text
-Bit Manipulation/
-├── Decimal_To_Binary.cpp
-├── Binary_To_Decimal.cpp
-├── Check_Ith_Bit.cpp
-├── Set_Ith_Bit.cpp
-├── Clear_Ith_Bit.cpp
-├── Toggle_Ith_Bit.cpp
-├── Remove_Last_Set_Bit.cpp
-├── Count_Set_Bits.cpp
-└── ...
+DSA/
+├── Arrays/
+├── Sorting/
+├── Binary Search/
+├── Strings/
+├── Recursion & Backtracking/
+├── Linked List/
+└── Bit Manipulation/
 ```
 
 ---
 
-## 🚀 Learning Outcomes
+## 📊 Topics Covered
 
-- Understand binary representation of numbers
-- Master bitwise operators (&, |, ^, ~, <<, >>)
-- Optimize solutions using bit-level operations
-- Solve XOR-based interview problems efficiently
-- Learn bit masking techniques for advanced problems
-
----
-
-## 🎯 Goal
-
-Master Bit Manipulation concepts, strengthen problem-solving skills, and build optimized C++ solutions for coding interviews, competitive programming, and placements.
+- ✅ Arrays
+- ✅ Sorting
+- ✅ Binary Search
+- ✅ Strings
+- ✅ Recursion & Backtracking
+- ✅ Linked List
+- 🔄 Bit Manipulation (Current)
 
 ---
 
-## 🛠️ Language Used
+## ⚡ Key Learnings
 
-- C++
+- Understanding **Time & Space Complexity**
+- Applying **Two-Pointer Techniques**
+- Learning **Binary Search Patterns**
+- Solving problems using **Recursion & Backtracking**
+- Working with **Singly and Doubly Linked Lists**
+- Applying **Fast & Slow Pointer Techniques**
+- Understanding **Bitwise Operations and Optimizations**
+- Writing clean and optimized code
 
 ---
 
-⭐ Part of my Striver's A2Z DSA Journey.
+## 📈 Progress
+
+- 📅 Consistently solving DSA problems
+- 🚀 Completed Arrays, Sorting, Binary Search, Strings, Recursion & Backtracking, and Linked List
+- 🧠 Currently learning Bit Manipulation
+- 🎯 Building strong foundations for coding interviews and placements
+
+---
+
+## 💡 How to Use
+
+- Explore topic-wise folders
+- Each file includes:
+  - Problem name
+  - Approach
+  - Code implementation
+
+---
+
+## 🚀 Goals
+
+- Complete Striver's A2Z DSA Sheet
+- Strengthen core DSA concepts
+- Improve problem-solving speed
+- Build consistency in daily practice
+- Prepare effectively for technical interviews and placements
+
+---
+
+## 🤝 Connect
+
+Open to learning and growing with others on a similar journey.
+
+---
+
+⭐ If you find this helpful, consider giving it a star!
