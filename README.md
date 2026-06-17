@@ -1,123 +1,97 @@
-# 🚀 DSA Journey in C++
+# 🚀 Striver's DSA Journey
 
-This repository contains my solutions to Data Structures and Algorithms problems, solved consistently as part of my learning journey.
+> C++ solutions from Striver's A2Z DSA Sheet, organized topic-wise with optimized approaches and detailed problem-solving practice.
 
----
-
-## 📌 About
-
-* 💻 Language: **C++**
-* 📚 Platform: **LeetCode / Striver’s DSA Sheet**
-* 🎯 Goal: Build strong problem-solving skills for technical interviews
-* 📈 Focus: Consistency, pattern recognition, and concept clarity
+![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
+![DSA](https://img.shields.io/badge/Track-Striver%20A2Z-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Current%20Topic-Bit%20Manipulation-success?style=flat-square)
 
 ---
 
-## 🗂️ Folder Structure
+## 📚 Topics Covered
 
-```bash
-DSA/
- ├── Arrays/
- ├── Sorting Techniques/
- ├── Binary Search/
- ├── Strings/
- ├── Recursion/
- ├── Linked List/
-```
+### ✅ Basics & Mathematics
+- Basic Programming
+- Patterns
+- Mathematics
 
----
+### ✅ Sorting Techniques
+- Selection Sort
+- Bubble Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
 
-## 📊 Topics Covered
+### ✅ Arrays
+- Easy Problems
+- Medium Problems
+- Hard Problems
 
-* ✅ Arrays
-* ✅ Sorting Techniques
-* ✅ Binary Search
-* ✅ Strings
-* ✅ Recursion
-* 🔄 Linked List (ongoing)
+### ✅ Binary Search
+- 1D Binary Search
+- Binary Search on Answers
+- Search Space Reduction
 
----
+### ✅ Strings
+- Basic String Operations
+- String Manipulation
+- Pattern-Based Problems
 
-## ⚡ Key Learnings
+### ✅ Recursion & Backtracking
+- Basic Recursion
+- Subsequences
+- Combination Problems
+- Permutations
+- N-Queens
+- Sudoku Solver
+- Palindrome Partitioning
 
-* Understanding **time & space complexity**
-* Applying **two-pointer technique**
-* Learning **binary search patterns**
-* Understanding **recursion flow & stack behavior**
-* Practicing **backtracking and recursive thinking**
-* Mastering **linked list traversal and pointer manipulation**
-* Learning **slow & fast pointer techniques**
-* Understanding **in-place linked list operations**
-* Writing clean and optimized C++ code
-* Building pattern recognition for interview problems
+### ✅ Linked List
+- Singly Linked List
+- Doubly Linked List
+- Fast & Slow Pointer Techniques
+- Cycle Detection
+- Reversal Problems
+- Merge Sort on Linked List
+- DLL Operations
+
+### 🔄 Currently Learning
+- Bit Manipulation
 
 ---
 
 ## 📈 Progress
 
-* 📅 Consistently solving DSA problems daily
-* ✅ Completed core Recursion fundamentals
-* 🚀 Currently strengthening Linked List concepts
-* 🧠 Focusing on concepts and patterns over memorization
-* 📌 Organizing solutions topic-wise for better revision
+- ✅ Basics & Mathematics
+- ✅ Sorting Techniques
+- ✅ Arrays
+- ✅ Binary Search
+- ✅ Strings
+- ✅ Recursion & Backtracking
+- ✅ Linked List
+- 🔄 Bit Manipulation
+- ⏳ Stack & Queue
+- ⏳ Sliding Window & Two Pointers
+- ⏳ Heaps
+- ⏳ Greedy Algorithms
+- ⏳ Trees
+- ⏳ Binary Search Trees
+- ⏳ Graphs
+- ⏳ Dynamic Programming
+- ⏳ Tries
 
 ---
 
-## 💡 How to Use
+## 🎯 Goal
 
-* Explore topic-wise folders
-* Each file includes:
-  * Problem name
-  * Approach
-  * Code implementation
+Solve the complete Striver A2Z DSA Sheet, strengthen problem-solving skills, and build a structured repository of optimized C++ solutions for coding interviews, internships, and placements.
 
 ---
 
-## 🔥 Current Focus
+## 🛠️ Language
 
-Currently learning and practicing:
-
-* Linked List Fundamentals
-* Linked List Traversal
-* Insertion & Deletion Operations
-* Fast & Slow Pointer Pattern
-* Linked List Reversal
-* Palindrome & Cycle Detection
-* Problem Solving Patterns
+- C++
 
 ---
 
-## 🚀 Goals
-
-* Strengthen core DSA concepts
-* Improve problem-solving speed
-* Build consistency in daily practice
-* Prepare for coding interviews and placements
-* Solve problems with optimized approaches
-
----
-
-## 📚 Learning Roadmap
-
-| Status | Topic |
-|---------|--------|
-| ✅ Completed | Arrays |
-| ✅ Completed | Sorting Techniques |
-| ✅ Completed | Binary Search |
-| ✅ Completed | Strings |
-| ✅ Completed | Recursion |
-| 🔄 In Progress | Linked List |
-| ⏳ Upcoming | Stacks & Queues |
-| ⏳ Upcoming | Trees |
-| ⏳ Upcoming | Graphs |
-| ⏳ Upcoming | Dynamic Programming |
-
----
-
-## 🤝 Connect
-
-Open to learning and growing with others on a similar journey.
-
----
-
-⭐ If you find this helpful, consider giving it a star!
+⭐ Currently on the Bit Manipulation section after completing Linked Lists. Consistently solving problems and documenting solutions throughout the Striver A2Z DSA Journey.
