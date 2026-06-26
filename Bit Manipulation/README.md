@@ -4,14 +4,14 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Bit%20Manipulation-purple?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-12%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-13%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
 
-## 📁 Problems Solved
+# 📁 Problems Solved
 
-### 📌 Basics: Conversion
+## 📌 Basics: Conversion
 
 | # | Problem | File |
 | - | ------- | ---- |
@@ -20,7 +20,7 @@
 
 ---
 
-### 📌 Playing with i-th Bit
+## 📌 Playing with i-th Bit
 
 | # | Problem | File |
 | - | ------- | ---- |
@@ -31,7 +31,7 @@
 
 ---
 
-### 📌 Basic Bit Problems
+## 📌 Basic Bit Problems
 
 | # | Problem | File |
 | - | ------- | ---- |
@@ -40,35 +40,36 @@
 
 ---
 
-### 📌 Bit Tricks & XOR
+## 📌 Bit Tricks & XOR
 
 | # | Problem | File |
 | - | ------- | ---- |
 | 9 | Remove the Last Set Bit | `removeLastSetBit.cpp` |
 | 10 | Swap Two Numbers using XOR | `swapTwoNumbers.cpp` |
 | 11 | LeetCode 2220 - Minimum Bit Flips to Convert Number | `minBitFlips-2220.cpp` |
+| 12 | LeetCode 137 - Single Number II | `singleNumberII137.cpp` |
 
 ---
 
-### 📌 Subsets using Bit Manipulation
+## 📌 Subsets using Bit Manipulation
 
 | # | Problem | File |
 | - | ------- | ---- |
-| 12 | LeetCode 78 - Subsets | `subsets78.cpp` |
+| 13 | LeetCode 78 - Subsets | `subsets78.cpp` |
 
 ---
 
-## 📈 Progress
+# 📈 Progress
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 12 |
+| Problems Solved | 13 |
 | Pattern Groups | 5 |
 | Language | C++ |
 
 ---
 
-## 💡 Key Learnings
+# 💡 Key Learnings
 
 * Understanding binary representation of integers
 * Converting decimal numbers to binary format
@@ -92,6 +93,9 @@
 * Swapping two numbers without a temporary variable
 * Using XOR to compare binary representations
 * Finding minimum bit flips between two numbers
+* Understanding finite-state bit manipulation
+* Tracking bit frequencies using `ones` and `twos`
+* Solving occurrence-based problems in constant space
 * Generating subsets using recursion
 * Generating subsets using bit masking
 * Understanding binary state representation
@@ -100,22 +104,22 @@
 
 ---
 
-## 🛠️ Concepts Covered
+# 🛠️ Concepts Covered
 
-### Number System Fundamentals
+## Number System Fundamentals
 * Decimal Representation
 * Binary Representation
 * Positional Number System
 * Powers of Two
 * Binary Arithmetic
 
-### Conversion Techniques
+## Conversion Techniques
 * Decimal to Binary Conversion
 * Binary to Decimal Conversion
 * Modulo and Division Method
 * Reverse Binary Construction
 
-### Bitwise Operators
+## Bitwise Operators
 * AND (`&`)
 * OR (`|`)
 * XOR (`^`)
@@ -123,7 +127,7 @@
 * Left Shift (`<<`)
 * Right Shift (`>>`)
 
-### Bit Manipulation Techniques
+## Bit Manipulation Techniques
 * Check i-th Bit
 * Set i-th Bit
 * Clear i-th Bit
@@ -135,23 +139,27 @@
 * XOR Swapping
 * XOR Difference Detection
 * Binary State Encoding
+* Finite-State Bit Tracking
+* Bit Frequency Counting (Modulo 3)
+* Constant Space Bitwise Simulation
 
-### Subset Generation Techniques
+## Subset Generation Techniques
 * Pick / Not Pick Recursion
 * Power Set Generation
 * Bit Mask Enumeration
 * Binary State Representation
 
-### Optimization Concepts
+## Optimization Concepts
 * Constant Time Operations
 * Binary-Level Computation
 * Efficient Memory Usage
 * Low-Level Number Manipulation
 * Brian Kernighan's Algorithm
+* Finite-State Machine (FSM) using Bitwise Operations
 
 ---
 
-## ⏱️ Complexity Highlights
+# ⏱️ Complexity Highlights
 
 | Problem | Time Complexity | Space Complexity |
 | -------- | ---------------- | ---------------- |
@@ -161,22 +169,22 @@
 | Set the i-th Bit | O(1) | O(1) |
 | Clear the i-th Bit | O(1) | O(1) |
 | Toggle the i-th Bit | O(1) | O(1) |
-| Count Number of Set Bits | O(Number of Set Bits) |
+| Count Number of Set Bits | O(Number of Set Bits) | O(1) |
 | Check if Number is Power of 2 | O(1) | O(1) |
 | Remove the Last Set Bit | O(1) | O(1) |
 | Swap Two Numbers using XOR | O(1) | O(1) |
 | Minimum Bit Flips to Convert Number | O(Number of Set Bits) | O(1) |
+| LeetCode 137 - Single Number II | O(N) | O(1) |
 | Subsets | O(N × 2ᴺ) | O(N) Auxiliary |
 
 ---
 
-## 🎯 Upcoming Topics
+# 🎯 Upcoming Topics
 
 * Count Trailing Zeros
 * Count Leading Zeros
 * Find Rightmost Set Bit
 * Single Number
-* Single Number II
 * Missing Number using XOR
 * XOR from 1 to N
 * Divide Two Integers
@@ -189,7 +197,7 @@
 
 ---
 
-## 🚀 Why Bit Manipulation?
+# 🚀 Why Bit Manipulation?
 
 Bit Manipulation allows operations to be performed directly on the binary representation of data, making many algorithms significantly faster and more memory-efficient. These techniques are frequently used in competitive programming, system design, embedded systems, cryptography, operating systems, and technical interviews.
 
@@ -197,4 +205,4 @@ Mastering bit manipulation develops a deeper understanding of how computers stor
 
 ---
 
-> 📌 Updated regularly as part of ongoing DSA practice on Striver's Sheet and Bit Manipulation concepts, covering binary representation, number system conversions, bitwise operators, XOR techniques, subset generation, bit masking strategies, and optimization patterns.
+> 📌 Updated regularly as part of ongoing DSA practice on Striver's Sheet and Bit Manipulation concepts, covering binary representation, number system conversions, bitwise operators, XOR techniques, subset generation, bit masking strategies, finite-state bit manipulation, and optimization patterns.
