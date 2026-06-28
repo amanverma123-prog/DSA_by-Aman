@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Bit%20Manipulation-purple?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-13%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-14%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -48,6 +48,7 @@
 | 10 | Swap Two Numbers using XOR | `swapTwoNumbers.cpp` |
 | 11 | LeetCode 2220 - Minimum Bit Flips to Convert Number | `minBitFlips-2220.cpp` |
 | 12 | LeetCode 137 - Single Number II | `singleNumberII137.cpp` |
+| 13 | LeetCode 260 - Single Number III | `singleNumberIII260.cpp` |
 
 ---
 
@@ -55,7 +56,7 @@
 
 | # | Problem | File |
 | - | ------- | ---- |
-| 13 | LeetCode 78 - Subsets | `subsets78.cpp` |
+| 14 | LeetCode 78 - Subsets | `subsets78.cpp` |
 
 ---
 
@@ -63,7 +64,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 13 |
+| Problems Solved | 14 |
 | Pattern Groups | 5 |
 | Language | C++ |
 
@@ -96,6 +97,11 @@
 * Understanding finite-state bit manipulation
 * Tracking bit frequencies using `ones` and `twos`
 * Solving occurrence-based problems in constant space
+* Using XOR to cancel duplicate numbers
+* Finding the XOR of two unique numbers
+* Isolating the rightmost set bit using `xor & (-xor)`
+* Partitioning numbers into two groups using a distinguishing bit
+* Finding two unique elements in O(N) time and O(1) space
 * Generating subsets using recursion
 * Generating subsets using bit masking
 * Understanding binary state representation
@@ -142,6 +148,10 @@
 * Finite-State Bit Tracking
 * Bit Frequency Counting (Modulo 3)
 * Constant Space Bitwise Simulation
+* Rightmost Set Bit Isolation
+* XOR Partitioning
+* Duplicate Cancellation using XOR
+* Finding Two Unique Numbers
 
 ## Subset Generation Techniques
 * Pick / Not Pick Recursion
@@ -156,6 +166,9 @@
 * Low-Level Number Manipulation
 * Brian Kernighan's Algorithm
 * Finite-State Machine (FSM) using Bitwise Operations
+* XOR-Based Partitioning
+* Constant Space Duplicate Elimination
+* Linear-Time Bitwise Grouping
 
 ---
 
@@ -175,6 +188,7 @@
 | Swap Two Numbers using XOR | O(1) | O(1) |
 | Minimum Bit Flips to Convert Number | O(Number of Set Bits) | O(1) |
 | LeetCode 137 - Single Number II | O(N) | O(1) |
+| LeetCode 260 - Single Number III | O(N) | O(1) |
 | Subsets | O(N × 2ᴺ) | O(N) Auxiliary |
 
 ---
