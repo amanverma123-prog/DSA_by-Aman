@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Bit%20Manipulation-purple?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-14%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-15%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -49,6 +49,7 @@
 | 11 | LeetCode 2220 - Minimum Bit Flips to Convert Number | `minBitFlips-2220.cpp` |
 | 12 | LeetCode 137 - Single Number II | `singleNumberII137.cpp` |
 | 13 | LeetCode 260 - Single Number III | `singleNumberIII260.cpp` |
+| 14 | LeetCode 29 - Divide Two Integers | `divideTwoIntegers29.cpp` |
 
 ---
 
@@ -56,7 +57,7 @@
 
 | # | Problem | File |
 | - | ------- | ---- |
-| 14 | LeetCode 78 - Subsets | `subsets78.cpp` |
+| 15 | LeetCode 78 - Subsets | `subsets78.cpp` |
 
 ---
 
@@ -65,7 +66,7 @@
 | Metric | Value |
 | ------ | ----- |
 | Problems Solved | 14 |
-| Pattern Groups | 5 |
+| Problems Solved | 15 |
 | Language | C++ |
 
 ---
@@ -102,6 +103,11 @@
 * Isolating the rightmost set bit using `xor & (-xor)`
 * Partitioning numbers into two groups using a distinguishing bit
 * Finding two unique elements in O(N) time and O(1) space
+* Performing division without using multiplication, division, or modulus operators
+* Applying left shift operations to compute powers of two efficiently
+* Using exponential subtraction to optimize integer division
+* Handling integer overflow (`INT_MIN` and `INT_MAX`)
+* Managing positive and negative results using sign determination
 * Generating subsets using recursion
 * Generating subsets using bit masking
 * Understanding binary state representation
@@ -152,6 +158,11 @@
 * XOR Partitioning
 * Duplicate Cancellation using XOR
 * Finding Two Unique Numbers
+* Bitwise Division
+* Exponential Subtraction
+* Left Shift Scaling
+* Overflow Handling
+* Sign Determination
 
 ## Subset Generation Techniques
 * Pick / Not Pick Recursion
@@ -169,6 +180,8 @@
 * XOR-Based Partitioning
 * Constant Space Duplicate Elimination
 * Linear-Time Bitwise Grouping
+* Exponential Search using Bit Shifts
+* Overflow-Safe Arithmetic
 
 ---
 
@@ -189,25 +202,8 @@
 | Minimum Bit Flips to Convert Number | O(Number of Set Bits) | O(1) |
 | LeetCode 137 - Single Number II | O(N) | O(1) |
 | LeetCode 260 - Single Number III | O(N) | O(1) |
+| LeetCode 29 - Divide Two Integers | O((log N)²) | O(1) |
 | Subsets | O(N × 2ᴺ) | O(N) Auxiliary |
-
----
-
-# 🎯 Upcoming Topics
-
-* Count Trailing Zeros
-* Count Leading Zeros
-* Find Rightmost Set Bit
-* Single Number
-* Missing Number using XOR
-* XOR from 1 to N
-* Divide Two Integers
-* Bitwise AND of Numbers Range
-* Maximum XOR Problems
-* Advanced Bit Masking
-* Subset Sum using Bitmask
-* Meet in the Middle
-* Bitwise Dynamic Programming
 
 ---
 
