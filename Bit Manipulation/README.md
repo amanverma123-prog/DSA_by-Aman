@@ -1,10 +1,11 @@
+```markdown
 # 🔗 Striver's DSA — Bit Manipulation
 
 > C++ solutions from Striver's DSA Sheet and related Bit Manipulation practice problems, organized by binary representation, bitwise operations, bit masking, XOR techniques, and optimization strategies.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Bit%20Manipulation-purple?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-14%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-15%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -49,6 +50,7 @@
 | 11 | LeetCode 2220 - Minimum Bit Flips to Convert Number | `minBitFlips-2220.cpp` |
 | 12 | LeetCode 137 - Single Number II | `singleNumberII137.cpp` |
 | 13 | LeetCode 260 - Single Number III | `singleNumberIII260.cpp` |
+| 14 | LeetCode 29 - Divide Two Integers | `divideTwoIntegers29.cpp` |
 
 ---
 
@@ -56,7 +58,7 @@
 
 | # | Problem | File |
 | - | ------- | ---- |
-| 14 | LeetCode 78 - Subsets | `subsets78.cpp` |
+| 15 | LeetCode 78 - Subsets | `subsets78.cpp` |
 
 ---
 
@@ -64,7 +66,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 14 |
+| Problems Solved | 15 |
 | Pattern Groups | 5 |
 | Language | C++ |
 
@@ -102,6 +104,11 @@
 * Isolating the rightmost set bit using `xor & (-xor)`
 * Partitioning numbers into two groups using a distinguishing bit
 * Finding two unique elements in O(N) time and O(1) space
+* Performing division without using multiplication, division, or modulus operators
+* Applying left shift operations to efficiently compute powers of two
+* Using exponential subtraction to optimize integer division
+* Handling integer overflow cases (`INT_MIN` and `INT_MAX`)
+* Understanding sign management using bitwise logic
 * Generating subsets using recursion
 * Generating subsets using bit masking
 * Understanding binary state representation
@@ -152,6 +159,11 @@
 * XOR Partitioning
 * Duplicate Cancellation using XOR
 * Finding Two Unique Numbers
+* Bitwise Division
+* Exponential Subtraction
+* Left Shift Scaling
+* Overflow Handling
+* Sign Determination
 
 ## Subset Generation Techniques
 * Pick / Not Pick Recursion
@@ -168,6 +180,8 @@
 * Finite-State Machine (FSM) using Bitwise Operations
 * XOR-Based Partitioning
 * Constant Space Duplicate Elimination
+* Exponential Search using Bit Shifts
+* Overflow-Safe Arithmetic
 * Linear-Time Bitwise Grouping
 
 ---
@@ -189,6 +203,7 @@
 | Minimum Bit Flips to Convert Number | O(Number of Set Bits) | O(1) |
 | LeetCode 137 - Single Number II | O(N) | O(1) |
 | LeetCode 260 - Single Number III | O(N) | O(1) |
+| LeetCode 29 - Divide Two Integers | O((log N)²) | O(1) |
 | Subsets | O(N × 2ᴺ) | O(N) Auxiliary |
 
 ---
@@ -201,7 +216,6 @@
 * Single Number
 * Missing Number using XOR
 * XOR from 1 to N
-* Divide Two Integers
 * Bitwise AND of Numbers Range
 * Maximum XOR Problems
 * Advanced Bit Masking
@@ -219,4 +233,5 @@ Mastering bit manipulation develops a deeper understanding of how computers stor
 
 ---
 
-> 📌 Updated regularly as part of ongoing DSA practice on Striver's Sheet and Bit Manipulation concepts, covering binary representation, number system conversions, bitwise operators, XOR techniques, subset generation, bit masking strategies, finite-state bit manipulation, and optimization patterns.
+> 📌 Updated regularly as part of ongoing DSA practice on Striver's Sheet and Bit Manipulation concepts, covering binary representation, number system conversions, bitwise operators, XOR techniques, subset generation, bit masking strategies, finite-state bit manipulation, optimization patterns, and arithmetic using bitwise operations.
+```
