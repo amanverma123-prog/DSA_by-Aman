@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Bit%20Manipulation-purple?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-15%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-16%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -58,6 +58,7 @@
 | # | Problem | File |
 | - | ------- | ---- |
 | 15 | LeetCode 78 - Subsets | `subsets78.cpp` |
+| 16 | LeetCode 50 - Pow(x, n) | `pow50.cpp` |
 
 ---
 
@@ -65,8 +66,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 14 |
-| Problems Solved | 15 |
+| Problems Solved | 16 |
 | Language | C++ |
 
 ---
@@ -113,6 +113,12 @@
 * Understanding binary state representation
 * Learning constant-time bit manipulation tricks
 * Building a strong foundation for advanced bitwise problems
+* Understanding Binary Exponentiation (Fast Power)
+* Reducing exponentiation from O(N) to O(log N)
+* Processing exponents using binary representation
+* Handling negative exponents by reciprocal transformation
+* Preventing integer overflow using long long
+* Applying divide-and-conquer for mathematical computation
 
 ---
 
@@ -203,6 +209,7 @@
 | LeetCode 137 - Single Number II | O(N) | O(1) |
 | LeetCode 260 - Single Number III | O(N) | O(1) |
 | LeetCode 29 - Divide Two Integers | O((log N)²) | O(1) |
+| LeetCode 50 - Pow(x, n) | O(log N) | O(1) |
 | Subsets | O(N × 2ᴺ) | O(N) Auxiliary |
 
 ---
@@ -215,4 +222,4 @@ Mastering bit manipulation develops a deeper understanding of how computers stor
 
 ---
 
-> 📌 Updated regularly as part of ongoing DSA practice on Striver's Sheet and Bit Manipulation concepts, covering binary representation, number system conversions, bitwise operators, XOR techniques, subset generation, bit masking strategies, finite-state bit manipulation, and optimization patterns.
+> 📌 Updated regularly as part of ongoing DSA practice on Striver's Sheet and Bit Manipulation concepts, covering binary representation, number system conversions, bitwise operators, XOR techniques, subset generation, bit masking strategies, binary exponentiation, finite-state bit manipulation, divide-and-conquer optimization, and advanced bitwise patterns.
