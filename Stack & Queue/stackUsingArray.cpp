@@ -6,6 +6,7 @@ const int size = 10;
 int st[size];
 int topIdx = -1;
 
+// TC = O(1), SC = O(1)
 void push(int x) {
     if(topIdx == 9){
         cout<<"Array is full\n";
@@ -14,21 +15,24 @@ void push(int x) {
     topIdx += 1;
     st[topIdx] = x;
 }
-    
+
+// TC = O(1), SC = O(1)  
 int pop() {
     if(topIdx == -1){
         return -1;
     }
     return st[topIdx--];
 }
-    
+
+// TC = O(1), SC = O(1)
 int top() {
     if(topIdx == -1){
         return -1;
     }
     return st[topIdx];
 }
-    
+
+// TC = O(1), SC = O(1)  
 bool isEmpty() {
     return topIdx == -1;
 }
