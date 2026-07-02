@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-3%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-5%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -25,6 +25,8 @@
 | # | Problem | File |
 |---|---|---|
 | 1 | Queue using Array (Circular Queue) | `queueUsingArray.cpp` |
+| 2 | Queue using Stacks | `queueUsingStacks.cpp` |
+| 3 | LeetCode 232 – Implement Queue using Stacks | `implementQueueUsingStacks.cpp` |
 
 ---
 
@@ -48,7 +50,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 3 |
+| Implementations Completed | 5 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -71,11 +73,12 @@
 
 - Understanding the FIFO (First In, First Out) principle
 - Implementing a queue using a circular array
-- Efficient space utilization using circular indexing
-- Managing `front`, `rear`, and `currSize`
-- Detecting queue overflow and underflow
-- Queue operations: `push()`, `pop()`, `front()`, and `empty()`
-- Constant-time queue operations — **O(1)**
+- Implementing a queue using two stacks
+- Using lazy transfer between stacks for efficient queue operations
+- Applying amortized analysis for **O(1)** pop and peek operations
+- Efficiently simulating queue behavior using stack operations
+- Managing queue operations: `push()`, `pop()`, `peek()`, and `empty()`
+- Understanding the trade-offs of different queue implementations
 
 ---
 
@@ -86,13 +89,13 @@
 - Stack using Array
 - Queue using Array (Circular Queue)
 - Stack using Queue (Single Queue)
+- Queue using Stacks
+- LeetCode 232 – Implement Queue using Stacks
 
 ## ⏳ Upcoming
 
 - Stack using Linked List
 - Queue using Linked List
-- Queue using Stacks
-- Implement Queue using Stacks (LeetCode 232)
 - Monotonic Stack
 - Next Greater Element
 - Next Greater Element II
@@ -126,6 +129,7 @@
 | Stack (Array) | O(1) | O(1) | O(1) | O(N) |
 | Queue (Circular Array) | O(1) | O(1) | O(1) | O(N) |
 | Stack (Single Queue) | O(N) | O(1) | O(1) | O(N) |
+| Queue (Two Stacks) | O(1) | Amortized O(1) | Amortized O(1) | O(N) |
 
 ---
 
@@ -137,9 +141,12 @@
 - Circular Queue
 - Queue Rotation Technique
 - Stack using Queue
+- Queue using Stacks
+- Lazy Transfer Technique
+- Amortized Time Complexity
+- Data Structure Simulation
 - Time Complexity Analysis
 - Space Complexity Analysis
-- Data Structure Simulation
 
 ---
 
