@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-5%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-6%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -34,7 +34,7 @@
 
 | # | Problem | File |
 |---|---|---|
-| — | Coming Soon | — |
+| 1 | LeetCode 155 – Min Stack | `minStack.cpp` |
 
 ---
 
@@ -50,7 +50,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 5 |
+| Implementations Completed | 6 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -67,7 +67,11 @@
 - Rotating queue elements after every insertion
 - Understanding the trade-off of **O(n)** push for **O(1)** pop and top
 - Maintaining stack operations without using an actual stack
-- Stack operations: `push()`, `pop()`, `top()`, and `empty()`
+- Designing a stack that supports retrieving the minimum element in **O(1)** time
+- Learning the optimal **single-stack encoding technique**
+- Using mathematical encoding and decoding to store previous minimum values
+- Understanding integer overflow handling using **`long long`**
+- Stack operations: `push()`, `pop()`, `top()`, `getMin()`, and `empty()`
 
 ### Queue
 
@@ -91,6 +95,7 @@
 - Stack using Queue (Single Queue)
 - Queue using Stacks
 - LeetCode 232 – Implement Queue using Stacks
+- LeetCode 155 – Min Stack
 
 ## ⏳ Upcoming
 
@@ -104,7 +109,6 @@
 - Previous Smaller Element
 - Stock Span Problem
 - Valid Parentheses
-- Min Stack
 - Asteroid Collision
 - Daily Temperatures
 - Largest Rectangle in Histogram
@@ -124,12 +128,13 @@
 
 # ⏱️ Complexity Summary
 
-| Data Structure | Push | Pop | Peek/Top | Space |
-|---|---:|---:|---:|---:|
-| Stack (Array) | O(1) | O(1) | O(1) | O(N) |
-| Queue (Circular Array) | O(1) | O(1) | O(1) | O(N) |
-| Stack (Single Queue) | O(N) | O(1) | O(1) | O(N) |
-| Queue (Two Stacks) | O(1) | Amortized O(1) | Amortized O(1) | O(N) |
+| Data Structure | Push | Pop | Peek/Top | Extra Operation | Space |
+|---|---:|---:|---:|---:|---:|
+| Stack (Array) | O(1) | O(1) | O(1) | — | O(N) |
+| Queue (Circular Array) | O(1) | O(1) | O(1) | — | O(N) |
+| Stack (Single Queue) | O(N) | O(1) | O(1) | — | O(N) |
+| Queue (Two Stacks) | O(1) | Amortized O(1) | Amortized O(1) | — | O(N) |
+| Min Stack | O(1) | O(1) | O(1) | **getMin(): O(1)** | O(N) |
 
 ---
 
@@ -143,6 +148,9 @@
 - Stack using Queue
 - Queue using Stacks
 - Lazy Transfer Technique
+- Min Stack
+- Mathematical Encoding Technique
+- Constant-Time Minimum Retrieval
 - Amortized Time Complexity
 - Data Structure Simulation
 - Time Complexity Analysis
