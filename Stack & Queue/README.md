@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-6%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-7%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -35,6 +35,7 @@
 | # | Problem | File |
 |---|---|---|
 | 1 | LeetCode 155 – Min Stack | `minStack.cpp` |
+| 2 | LeetCode 496 – Next Greater Element I | `nextGreaterElementI.cpp` |
 
 ---
 
@@ -50,7 +51,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 6 |
+| Implementations Completed | 7 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -72,6 +73,11 @@
 - Using mathematical encoding and decoding to store previous minimum values
 - Understanding integer overflow handling using **`long long`**
 - Stack operations: `push()`, `pop()`, `top()`, `getMin()`, and `empty()`
+- Understanding the Monotonic Decreasing Stack pattern
+- Finding the Next Greater Element in linear time
+- Traversing arrays from right to left for preprocessing
+- Using `unordered_map` to answer multiple queries in O(1)
+- Combining Stack and Hash Map for optimized solutions
 
 ### Queue
 
@@ -96,13 +102,13 @@
 - Queue using Stacks
 - LeetCode 232 – Implement Queue using Stacks
 - LeetCode 155 – Min Stack
+- LeetCode 496 – Next Greater Element I
 
 ## ⏳ Upcoming
 
 - Stack using Linked List
 - Queue using Linked List
 - Monotonic Stack
-- Next Greater Element
 - Next Greater Element II
 - Next Smaller Element
 - Previous Greater Element
@@ -155,6 +161,11 @@
 - Data Structure Simulation
 - Time Complexity Analysis
 - Space Complexity Analysis
+- Monotonic Stack
+- Next Greater Element
+- Right-to-Left Traversal
+- Hash Map Preprocessing
+- Stack + Hash Map Pattern
 
 ---
 
