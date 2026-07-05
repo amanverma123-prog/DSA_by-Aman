@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-7%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-8%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -36,6 +36,7 @@
 |---|---|---|
 | 1 | LeetCode 155 – Min Stack | `minStack.cpp` |
 | 2 | LeetCode 496 – Next Greater Element I | `nextGreaterElementI.cpp` |
+| 3 | LeetCode 503 – Next Greater Element II | `nextGreaterElementII.cpp` |
 
 ---
 
@@ -51,7 +52,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 7 |
+| Implementations Completed | 8 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -76,8 +77,14 @@
 - Understanding the Monotonic Decreasing Stack pattern
 - Finding the Next Greater Element in linear time
 - Traversing arrays from right to left for preprocessing
-- Using `unordered_map` to answer multiple queries in O(1)
+- Using `unordered_map` to answer multiple queries in **O(1)**
 - Combining Stack and Hash Map for optimized solutions
+- Extending the Next Greater Element concept to Circular Arrays
+- Simulating a circular array without duplicating the input
+- Using modulo (`i % n`) to wrap indices efficiently
+- Traversing **2 × N** elements while maintaining **O(N)** time complexity
+- Reusing the Monotonic Decreasing Stack for circular traversal
+- Understanding why answers are computed only during the second traversal
 
 ### Queue
 
@@ -103,13 +110,13 @@
 - LeetCode 232 – Implement Queue using Stacks
 - LeetCode 155 – Min Stack
 - LeetCode 496 – Next Greater Element I
+- LeetCode 503 – Next Greater Element II
 
 ## ⏳ Upcoming
 
 - Stack using Linked List
 - Queue using Linked List
 - Monotonic Stack
-- Next Greater Element II
 - Next Smaller Element
 - Previous Greater Element
 - Previous Smaller Element
@@ -134,13 +141,14 @@
 
 # ⏱️ Complexity Summary
 
-| Data Structure | Push | Pop | Peek/Top | Extra Operation | Space |
+| Data Structure / Problem | Push | Pop | Peek/Top | Extra Operation | Space |
 |---|---:|---:|---:|---:|---:|
 | Stack (Array) | O(1) | O(1) | O(1) | — | O(N) |
 | Queue (Circular Array) | O(1) | O(1) | O(1) | — | O(N) |
 | Stack (Single Queue) | O(N) | O(1) | O(1) | — | O(N) |
 | Queue (Two Stacks) | O(1) | Amortized O(1) | Amortized O(1) | — | O(N) |
 | Min Stack | O(1) | O(1) | O(1) | **getMin(): O(1)** | O(N) |
+| Next Greater Element II | O(N) | — | — | Circular Monotonic Stack | O(N) |
 
 ---
 
@@ -163,6 +171,10 @@
 - Space Complexity Analysis
 - Monotonic Stack
 - Next Greater Element
+- Next Greater Element II
+- Circular Arrays
+- Circular Traversal
+- Modulo Indexing
 - Right-to-Left Traversal
 - Hash Map Preprocessing
 - Stack + Hash Map Pattern
