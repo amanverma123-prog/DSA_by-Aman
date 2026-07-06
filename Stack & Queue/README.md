@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-8%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-10%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -37,6 +37,8 @@
 | 1 | LeetCode 155 – Min Stack | `minStack.cpp` |
 | 2 | LeetCode 496 – Next Greater Element I | `nextGreaterElementI.cpp` |
 | 3 | LeetCode 503 – Next Greater Element II | `nextGreaterElementII.cpp` |
+| 4 | Next Smaller Element | `nextSmallerElement.cpp` |
+| 5 | LeetCode 42 – Trapping Rain Water | `trappingRainWater.cpp` |
 
 ---
 
@@ -52,7 +54,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 8 |
+| Implementations Completed | 10 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -85,6 +87,16 @@
 - Traversing **2 × N** elements while maintaining **O(N)** time complexity
 - Reusing the Monotonic Decreasing Stack for circular traversal
 - Understanding why answers are computed only during the second traversal
+- Understanding the Monotonic Increasing Stack pattern
+- Finding the Next Smaller Element in linear time
+- Removing larger elements to maintain increasing order
+- Using reverse traversal to preprocess answers efficiently
+- Learning how monotonic stacks solve nearest-element problems in **O(N)**
+- Understanding the Prefix Maximum and Suffix Maximum preprocessing technique
+- Calculating trapped water using boundary heights
+- Optimizing Trapping Rain Water from **O(N)** space to **O(1)** using Two Pointers
+- Learning why the smaller boundary determines trapped water
+- Maintaining `leftMax` and `rightMax` while moving pointers inward
 
 ### Queue
 
@@ -111,13 +123,14 @@
 - LeetCode 155 – Min Stack
 - LeetCode 496 – Next Greater Element I
 - LeetCode 503 – Next Greater Element II
+- Next Smaller Element
+- LeetCode 42 – Trapping Rain Water
 
 ## ⏳ Upcoming
 
 - Stack using Linked List
 - Queue using Linked List
 - Monotonic Stack
-- Next Smaller Element
 - Previous Greater Element
 - Previous Smaller Element
 - Stock Span Problem
@@ -133,7 +146,6 @@
 - Deque-based Problems
 - LFU/LRU Cache
 - Celebrity Problem
-- Trapping Rain Water
 - Sum of Subarray Minimums
 - Online Stock Span
 
@@ -149,6 +161,8 @@
 | Queue (Two Stacks) | O(1) | Amortized O(1) | Amortized O(1) | — | O(N) |
 | Min Stack | O(1) | O(1) | O(1) | **getMin(): O(1)** | O(N) |
 | Next Greater Element II | O(N) | — | — | Circular Monotonic Stack | O(N) |
+| Next Smaller Element | O(N) | — | — | Monotonic Increasing Stack | O(N) |
+| Trapping Rain Water | O(N) | — | — | Two Pointer Technique | O(1) |
 
 ---
 
@@ -170,14 +184,23 @@
 - Time Complexity Analysis
 - Space Complexity Analysis
 - Monotonic Stack
+- Monotonic Increasing Stack
+- Monotonic Decreasing Stack
 - Next Greater Element
 - Next Greater Element II
+- Next Smaller Element
 - Circular Arrays
 - Circular Traversal
 - Modulo Indexing
 - Right-to-Left Traversal
 - Hash Map Preprocessing
 - Stack + Hash Map Pattern
+- Prefix Maximum
+- Suffix Maximum
+- Two Pointer Technique
+- Trapping Rain Water
+- Space Optimization
+- Boundary-Based Problems
 
 ---
 
