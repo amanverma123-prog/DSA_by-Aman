@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-10%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-11%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -39,6 +39,7 @@
 | 3 | LeetCode 503 – Next Greater Element II | `nextGreaterElementII.cpp` |
 | 4 | Next Smaller Element | `nextSmallerElement.cpp` |
 | 5 | LeetCode 42 – Trapping Rain Water | `trappingRainWater.cpp` |
+| 6 | LeetCode 907 – Sum of Subarray Minimums | `sumOfSubarrayMinimums.cpp` |
 
 ---
 
@@ -54,7 +55,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 10 |
+| Implementations Completed | 11 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -97,6 +98,12 @@
 - Optimizing Trapping Rain Water from **O(N)** space to **O(1)** using Two Pointers
 - Learning why the smaller boundary determines trapped water
 - Maintaining `leftMax` and `rightMax` while moving pointers inward
+- Understanding the contribution technique for subarray problems
+- Computing Previous Smaller or Equal Element (**PSEE**) and Next Smaller Element (**NSE**)
+- Determining how many subarrays consider each element as the minimum
+- Applying the contribution formula **arr[i] × left × right**
+- Handling duplicate values correctly using different comparison operators (`>` and `>=`)
+- Optimizing a brute-force **O(N²)** approach into an optimal **O(N)** solution using a Monotonic Stack
 
 ### Queue
 
@@ -125,6 +132,7 @@
 - LeetCode 503 – Next Greater Element II
 - Next Smaller Element
 - LeetCode 42 – Trapping Rain Water
+- LeetCode 907 – Sum of Subarray Minimums
 
 ## ⏳ Upcoming
 
@@ -145,8 +153,6 @@
 - Number of Recent Calls
 - Deque-based Problems
 - LFU/LRU Cache
-- Celebrity Problem
-- Sum of Subarray Minimums
 - Online Stock Span
 
 ---
@@ -163,6 +169,7 @@
 | Next Greater Element II | O(N) | — | — | Circular Monotonic Stack | O(N) |
 | Next Smaller Element | O(N) | — | — | Monotonic Increasing Stack | O(N) |
 | Trapping Rain Water | O(N) | — | — | Two Pointer Technique | O(1) |
+| Sum of Subarray Minimums | O(N) | — | — | Monotonic Stack + Contribution Technique | O(N) |
 
 ---
 
@@ -189,6 +196,7 @@
 - Next Greater Element
 - Next Greater Element II
 - Next Smaller Element
+- Previous Smaller or Equal Element (PSEE)
 - Circular Arrays
 - Circular Traversal
 - Modulo Indexing
@@ -199,6 +207,10 @@
 - Suffix Maximum
 - Two Pointer Technique
 - Trapping Rain Water
+- Sum of Subarray Minimums
+- Contribution Technique
+- Range Contribution Problems
+- Duplicate Element Handling
 - Space Optimization
 - Boundary-Based Problems
 
