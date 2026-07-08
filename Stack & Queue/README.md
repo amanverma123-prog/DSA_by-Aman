@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-11%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-12%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -40,6 +40,7 @@
 | 4 | Next Smaller Element | `nextSmallerElement.cpp` |
 | 5 | LeetCode 42 – Trapping Rain Water | `trappingRainWater.cpp` |
 | 6 | LeetCode 907 – Sum of Subarray Minimums | `sumOfSubarrayMinimums.cpp` |
+| 7 | LeetCode 2104 – Sum of Subarray Ranges | `sumOfSubarrayRanges.cpp` |
 
 ---
 
@@ -55,7 +56,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 11 |
+| Implementations Completed | 12 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -104,6 +105,11 @@
 - Applying the contribution formula **arr[i] × left × right**
 - Handling duplicate values correctly using different comparison operators (`>` and `>=`)
 - Optimizing a brute-force **O(N²)** approach into an optimal **O(N)** solution using a Monotonic Stack
+- Extending the contribution technique to compute subarray maximums
+- Computing Previous Greater or Equal Element (**PGEE**) and Next Greater Element (**NGE**)
+- Calculating the sum of subarray ranges using **(Sum of Maximums − Sum of Minimums)**
+- Understanding tie-breaking rules (`<`, `<=`, `>`, `>=`) for duplicate elements
+- Applying four monotonic stack traversals to solve range contribution problems in **O(N)** time
 
 ### Queue
 
@@ -133,6 +139,7 @@
 - Next Smaller Element
 - LeetCode 42 – Trapping Rain Water
 - LeetCode 907 – Sum of Subarray Minimums
+- LeetCode 2104 – Sum of Subarray Ranges
 
 ## ⏳ Upcoming
 
@@ -170,6 +177,7 @@
 | Next Smaller Element | O(N) | — | — | Monotonic Increasing Stack | O(N) |
 | Trapping Rain Water | O(N) | — | — | Two Pointer Technique | O(1) |
 | Sum of Subarray Minimums | O(N) | — | — | Monotonic Stack + Contribution Technique | O(N) |
+| Sum of Subarray Ranges | O(N) | — | — | Monotonic Stack + Contribution Technique | O(N) |
 
 ---
 
@@ -196,7 +204,10 @@
 - Next Greater Element
 - Next Greater Element II
 - Next Smaller Element
+- Previous Greater or Equal Element (PGEE)
 - Previous Smaller or Equal Element (PSEE)
+- Next Greater Element (NGE)
+- Next Smaller Element (NSE)
 - Circular Arrays
 - Circular Traversal
 - Modulo Indexing
@@ -208,8 +219,12 @@
 - Two Pointer Technique
 - Trapping Rain Water
 - Sum of Subarray Minimums
+- Sum of Subarray Ranges
 - Contribution Technique
+- Maximum Contribution Technique
+- Minimum Contribution Technique
 - Range Contribution Problems
+- Four-Pass Monotonic Stack
 - Duplicate Element Handling
 - Space Optimization
 - Boundary-Based Problems
