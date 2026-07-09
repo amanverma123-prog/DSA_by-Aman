@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-12%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-13%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -41,6 +41,7 @@
 | 5 | LeetCode 42 – Trapping Rain Water | `trappingRainWater.cpp` |
 | 6 | LeetCode 907 – Sum of Subarray Minimums | `sumOfSubarrayMinimums.cpp` |
 | 7 | LeetCode 2104 – Sum of Subarray Ranges | `sumOfSubarrayRanges.cpp` |
+| 8 | LeetCode 735 – Asteroid Collision | `asteroidCollision.cpp` |
 
 ---
 
@@ -56,7 +57,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 12 |
+| Implementations Completed | 13 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -110,6 +111,12 @@
 - Calculating the sum of subarray ranges using **(Sum of Maximums − Sum of Minimums)**
 - Understanding tie-breaking rules (`<`, `<=`, `>`, `>=`) for duplicate elements
 - Applying four monotonic stack traversals to solve range contribution problems in **O(N)** time
+- Understanding stack-based simulation problems
+- Resolving chain reactions using iterative collision handling
+- Using a `while` loop to process multiple consecutive collisions
+- Determining surviving asteroids based on collision conditions
+- Maintaining only surviving elements inside the stack
+- Learning how stack simulation efficiently models sequential interactions
 
 ### Queue
 
@@ -140,6 +147,7 @@
 - LeetCode 42 – Trapping Rain Water
 - LeetCode 907 – Sum of Subarray Minimums
 - LeetCode 2104 – Sum of Subarray Ranges
+- LeetCode 735 – Asteroid Collision
 
 ## ⏳ Upcoming
 
@@ -150,7 +158,6 @@
 - Previous Smaller Element
 - Stock Span Problem
 - Valid Parentheses
-- Asteroid Collision
 - Daily Temperatures
 - Largest Rectangle in Histogram
 - Maximal Rectangle
@@ -178,6 +185,7 @@
 | Trapping Rain Water | O(N) | — | — | Two Pointer Technique | O(1) |
 | Sum of Subarray Minimums | O(N) | — | — | Monotonic Stack + Contribution Technique | O(N) |
 | Sum of Subarray Ranges | O(N) | — | — | Monotonic Stack + Contribution Technique | O(N) |
+| Asteroid Collision | O(N) | — | — | Stack-based Simulation | O(N) |
 
 ---
 
@@ -228,6 +236,12 @@
 - Duplicate Element Handling
 - Space Optimization
 - Boundary-Based Problems
+- Stack-based Simulation
+- Collision Simulation
+- Chain Reaction Handling
+- Sequential State Updates
+- Vector as Stack
+- Conditional Stack Operations
 
 ---
 
