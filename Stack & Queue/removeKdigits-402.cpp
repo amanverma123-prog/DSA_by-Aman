@@ -3,6 +3,7 @@
 #include<stack>
 #include<algorithm>
 using namespace std;
+// TC = O(3n + k), SC = O(2n)
 string removeKdigits(string num, int k) {
     stack<char> st;
     for(int i = 0;i<num.size();i++){
