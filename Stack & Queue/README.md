@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-14%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-15%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -43,6 +43,7 @@
 | 7 | LeetCode 2104 – Sum of Subarray Ranges | `sumOfSubarrayRanges.cpp` |
 | 8 | LeetCode 735 – Asteroid Collision | `asteroidCollision.cpp` |
 | 9 | LeetCode 402 – Remove K Digits | `removeKDigits.cpp` |
+| 10 | LeetCode 901 – Online Stock Span | `onlineStockSpan.cpp` |
 
 ---
 
@@ -58,7 +59,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 14 |
+| Implementations Completed | 15 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -83,6 +84,10 @@
 - Handling remaining removals after traversal
 - Removing leading zeros efficiently
 - Combining Stack + Greedy to solve lexicographical optimization problems
+- Online processing using persistent data structures
+- Stock Span pattern using Monotonic Decreasing Stack
+- Span compression using `{price, span}` pairs
+- Amortized O(1) analysis for stack operations
 
 ### Queue
 
@@ -112,6 +117,7 @@
 - LeetCode 2104 – Sum of Subarray Ranges
 - LeetCode 735 – Asteroid Collision
 - LeetCode 402 – Remove K Digits
+- LeetCode 901 – Online Stock Span
 
 ## ⏳ Upcoming
 
@@ -120,7 +126,6 @@
 - Monotonic Stack
 - Previous Greater Element
 - Previous Smaller Element
-- Stock Span Problem
 - Valid Parentheses
 - Daily Temperatures
 - Largest Rectangle in Histogram
@@ -131,7 +136,6 @@
 - Number of Recent Calls
 - Deque-based Problems
 - LFU/LRU Cache
-- Online Stock Span
 
 ---
 
@@ -151,6 +155,7 @@
 | Sum of Subarray Ranges | O(N) | O(N) | Contribution + Stack |
 | Asteroid Collision | O(N) | O(N) | Stack Simulation |
 | Remove K Digits | O(N) | O(N) | Monotonic Stack + Greedy |
+| Online Stock Span | Amortized O(1) | O(N) | Monotonic Stack |
 
 ---
 
@@ -168,6 +173,10 @@
 - Next Greater Element
 - Next Smaller Element
 - Previous Greater/Smaller Elements
+- Stock Span Problem
+- Online Algorithms
+- Amortized Analysis
+- Span Compression
 - Circular Arrays
 - Hash Map
 - Prefix & Suffix Arrays
