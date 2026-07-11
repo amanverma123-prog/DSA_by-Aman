@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-16%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-17%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -52,6 +52,7 @@
 | # | Problem | File |
 |---|---|---|
 | 1 | LeetCode 239 – Sliding Window Maximum | `slidingWindowMaximum.cpp` |
+| 2 | Celebrity Problem (GFG / LeetCode 277) | `celebrityProblem.cpp` |
 
 ---
 
@@ -59,7 +60,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 16 |
+| Implementations Completed | 17 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -101,6 +102,10 @@
 - Efficient removal of out-of-window indices
 - Maintaining decreasing order inside deque
 - O(N) processing by pushing and popping each element at most once
+- Candidate elimination technique
+- Two-pointer elimination strategy
+- Verification of candidate using row and column checks
+- Constant space optimization for matrix-based problems
 
 ---
 
@@ -124,6 +129,7 @@
 - LeetCode 402 – Remove K Digits
 - LeetCode 901 – Online Stock Span
 - LeetCode 239 – Sliding Window Maximum
+- Celebrity Problem (GFG / LeetCode 277)
 
 ## ⏳ Upcoming
 
@@ -162,6 +168,7 @@
 | Remove K Digits | O(N) | O(N) | Monotonic Stack + Greedy |
 | Online Stock Span | Amortized O(1) | O(N) | Monotonic Stack |
 | Sliding Window Maximum | O(N) | O(K) | Monotonic Deque |
+| Celebrity Problem | O(N) | O(1) | Two-Pointer Elimination |
 
 ---
 
@@ -184,12 +191,14 @@
 - Online Algorithms
 - Sliding Window
 - Sliding Window Maximum
+- Candidate Elimination
+- Celebrity Problem
+- Two-Pointer Technique
 - Amortized Analysis
 - Span Compression
 - Circular Arrays
 - Hash Map
 - Prefix & Suffix Arrays
-- Two Pointer Technique
 - Contribution Technique
 - Trapping Rain Water
 - Sum of Subarray Minimums
