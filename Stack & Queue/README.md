@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-15%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-16%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -51,7 +51,7 @@
 
 | # | Problem | File |
 |---|---|---|
-| — | Coming Soon | — |
+| 1 | LeetCode 239 – Sliding Window Maximum | `slidingWindowMaximum.cpp` |
 
 ---
 
@@ -59,7 +59,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 15 |
+| Implementations Completed | 16 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -96,6 +96,11 @@
 - Queue using Two Stacks
 - Lazy Transfer Technique
 - Amortized analysis for queue operations
+- Sliding Window optimization
+- Monotonic Deque for maintaining window maximums
+- Efficient removal of out-of-window indices
+- Maintaining decreasing order inside deque
+- O(N) processing by pushing and popping each element at most once
 
 ---
 
@@ -118,6 +123,7 @@
 - LeetCode 735 – Asteroid Collision
 - LeetCode 402 – Remove K Digits
 - LeetCode 901 – Online Stock Span
+- LeetCode 239 – Sliding Window Maximum
 
 ## ⏳ Upcoming
 
@@ -130,7 +136,6 @@
 - Daily Temperatures
 - Largest Rectangle in Histogram
 - Maximal Rectangle
-- Sliding Window Maximum
 - First Negative Integer in Every Window
 - Rotten Oranges
 - Number of Recent Calls
@@ -156,6 +161,7 @@
 | Asteroid Collision | O(N) | O(N) | Stack Simulation |
 | Remove K Digits | O(N) | O(N) | Monotonic Stack + Greedy |
 | Online Stock Span | Amortized O(1) | O(N) | Monotonic Stack |
+| Sliding Window Maximum | O(N) | O(K) | Monotonic Deque |
 
 ---
 
@@ -170,11 +176,14 @@
 - Monotonic Stack
 - Monotonic Increasing Stack
 - Monotonic Decreasing Stack
+- Monotonic Deque
 - Next Greater Element
 - Next Smaller Element
 - Previous Greater/Smaller Elements
 - Stock Span Problem
 - Online Algorithms
+- Sliding Window
+- Sliding Window Maximum
 - Amortized Analysis
 - Span Compression
 - Circular Arrays
