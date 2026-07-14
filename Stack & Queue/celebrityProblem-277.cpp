@@ -23,7 +23,7 @@ using namespace std;
 //     return -1;
 // }
 
-// Optimal --> TC = O(), SC = O()
+// Optimal --> TC = O(2n), SC = O(1)
 int celebrity(vector<vector<int>> &M){
     int n = M.size();
     int top = 0, bottom = n-1;
