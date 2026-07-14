@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Stack%20%26%20Queue-red?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-17%20Implementations-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-18%20Implementations-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -44,6 +44,7 @@
 | 8 | LeetCode 735 – Asteroid Collision | `asteroidCollision.cpp` |
 | 9 | LeetCode 402 – Remove K Digits | `removeKDigits.cpp` |
 | 10 | LeetCode 901 – Online Stock Span | `onlineStockSpan.cpp` |
+| 11 | LeetCode 682 – Baseball Game | `baseballGame.cpp` |
 
 ---
 
@@ -60,7 +61,7 @@
 
 | Metric | Value |
 |---|---|
-| Implementations Completed | 17 |
+| Implementations Completed | 18 |
 | Pattern Groups | 4 |
 | Language | C++ |
 
@@ -89,6 +90,10 @@
 - Stock Span pattern using Monotonic Decreasing Stack
 - Span compression using `{price, span}` pairs
 - Amortized O(1) analysis for stack operations
+- Stack-based score simulation
+- Processing dynamic operations using previous stack elements
+- Undo operations using stack pop
+- Maintaining historical state efficiently
 
 ### Queue
 
@@ -128,6 +133,7 @@
 - LeetCode 735 – Asteroid Collision
 - LeetCode 402 – Remove K Digits
 - LeetCode 901 – Online Stock Span
+- LeetCode 682 – Baseball Game
 - LeetCode 239 – Sliding Window Maximum
 - Celebrity Problem (GFG / LeetCode 277)
 
@@ -167,6 +173,7 @@
 | Asteroid Collision | O(N) | O(N) | Stack Simulation |
 | Remove K Digits | O(N) | O(N) | Monotonic Stack + Greedy |
 | Online Stock Span | Amortized O(1) | O(N) | Monotonic Stack |
+| Baseball Game | O(N) | O(N) | Stack Simulation |
 | Sliding Window Maximum | O(N) | O(K) | Monotonic Deque |
 | Celebrity Problem | O(N) | O(1) | Two-Pointer Elimination |
 
@@ -204,7 +211,11 @@
 - Sum of Subarray Minimums
 - Sum of Subarray Ranges
 - Stack-based Simulation
+- Simulation
 - Asteroid Collision
+- Baseball Game
+- Undo Operations
+- Score Processing
 - Greedy Algorithm
 - Remove K Digits
 - Lexicographically Smallest Number
