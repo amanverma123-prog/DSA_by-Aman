@@ -2,6 +2,7 @@
 #include<vector>
 #include<stack>
 using namespace std;
+// TC = O(2n), SC = O(n)
 int calPoints(vector<string>& operations) {
     stack<int> st;
     for(string op : operations){
