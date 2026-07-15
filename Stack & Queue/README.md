@@ -137,23 +137,6 @@
 - LeetCode 239 – Sliding Window Maximum
 - Celebrity Problem (GFG / LeetCode 277)
 
-## ⏳ Upcoming
-
-- Stack using Linked List
-- Queue using Linked List
-- Monotonic Stack
-- Previous Greater Element
-- Previous Smaller Element
-- Valid Parentheses
-- Daily Temperatures
-- Largest Rectangle in Histogram
-- Maximal Rectangle
-- First Negative Integer in Every Window
-- Rotten Oranges
-- Number of Recent Calls
-- Deque-based Problems
-- LFU/LRU Cache
-
 ---
 
 # ⏱️ Complexity Summary
