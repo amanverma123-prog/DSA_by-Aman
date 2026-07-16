@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+// TC = O(2k), SC = O(1)
 int maxScore(vector<int>& cardPoints, int k) {
     int n = cardPoints.size();
     long long lSum = 0, rSum = 0;
