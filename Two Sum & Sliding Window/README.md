@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Two%20Pointers%20%26%20Sliding%20Window-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-1%20Problem-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-2%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -21,6 +21,7 @@
 
 | # | Problem | File |
 | - | ------- | ---- |
+| 3 | Longest Substring Without Repeating Characters | `LC3_LongestSubstringWithoutRepeatingCharacters.cpp` |
 | 1423 | Maximum Points You Can Obtain from Cards | `LC1423_MaximumPointsYouCanObtainFromCards.cpp` |
 
 ---
@@ -29,7 +30,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 1 |
+| Problems Solved | 2 |
 | Pattern Groups | 2 |
 | Language | C++ |
 
@@ -40,14 +41,18 @@
 * Understanding the fundamentals of the Two Pointer technique
 * Learning when to use same-direction and opposite-direction pointers
 * Mastering Fixed Size Sliding Window problems
+* Understanding Variable Size Sliding Window using dynamic window expansion and contraction
+* Using hash maps to track the last occurrence of characters efficiently
+* Learning to jump the left pointer directly instead of shrinking the window one step at a time
+* Maintaining unique elements inside the current window
 * Understanding how to maximize the score by selecting elements from both ends
 * Maintaining left and right running sums efficiently
 * Replacing left-side selections with right-side selections incrementally
 * Eliminating redundant computations using a sliding window approach
-* Solving array optimization problems in linear time
-* Applying constant-space optimization
-* Improving brute-force solutions to efficient O(k) approaches
-* Identifying the correct pattern for end-selection problems
+* Solving array and string optimization problems in linear time
+* Applying constant-space optimization where applicable
+* Improving brute-force solutions to efficient linear-time approaches
+* Identifying the correct sliding window pattern for fixed and variable window problems
 * Strengthening problem-solving skills through pattern recognition
 
 ---
@@ -57,12 +62,17 @@
 * Two Pointer Technique
 * Left and Right Pointer Manipulation
 * Fixed Size Sliding Window
+* Variable Size Sliding Window
 * Running Sum
+* Hash Map
+* Last Occurrence Tracking
+* Window Expansion & Shrinking
 * Prefix Observation
 * Window Transition
 * Incremental Sum Update
 * End Selection Strategy
 * Array Optimization
+* String Processing
 * Greedy Observation
 * Constant Space Optimization
 * Time and Space Complexity Analysis
@@ -73,8 +83,10 @@
 
 | Problem | Time Complexity | Space Complexity |
 | -------- | ---------------- | ---------------- |
+| Longest Substring Without Repeating Characters (LC 3) | O(n) | O(min(n, charset)) |
 | Maximum Points You Can Obtain from Cards (LC 1423) | O(k) | O(1) |
 
 ---
 
-> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Running Sum optimization, Prefix observations, and efficient array optimization patterns.
+> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Hash Maps, Running Sum optimization, Prefix observations, and efficient array/string optimization patterns.
+```
