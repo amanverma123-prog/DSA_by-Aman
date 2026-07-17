@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Two%20Pointers%20%26%20Sliding%20Window-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-2%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-3%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -22,6 +22,7 @@
 | # | Problem | File |
 | - | ------- | ---- |
 | 3 | Longest Substring Without Repeating Characters | `LC3_LongestSubstringWithoutRepeatingCharacters.cpp` |
+| 1004 | Max Consecutive Ones III | `LC1004_MaxConsecutiveOnesIII.cpp` |
 | 1423 | Maximum Points You Can Obtain from Cards | `LC1423_MaximumPointsYouCanObtainFromCards.cpp` |
 
 ---
@@ -30,7 +31,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 2 |
+| Problems Solved | 3 |
 | Pattern Groups | 2 |
 | Language | C++ |
 
@@ -48,8 +49,11 @@
 * Understanding how to maximize the score by selecting elements from both ends
 * Maintaining left and right running sums efficiently
 * Replacing left-side selections with right-side selections incrementally
+* Learning to maintain a window with at most **k** invalid elements (zeros)
+* Expanding and shrinking the sliding window based on constraints
+* Tracking the count of zeros to determine window validity
+* Solving binary array optimization problems in linear time
 * Eliminating redundant computations using a sliding window approach
-* Solving array and string optimization problems in linear time
 * Applying constant-space optimization where applicable
 * Improving brute-force solutions to efficient linear-time approaches
 * Identifying the correct sliding window pattern for fixed and variable window problems
@@ -67,6 +71,8 @@
 * Hash Map
 * Last Occurrence Tracking
 * Window Expansion & Shrinking
+* Zero Count Tracking
+* Dynamic Window Validation
 * Prefix Observation
 * Window Transition
 * Incremental Sum Update
@@ -83,10 +89,10 @@
 
 | Problem | Time Complexity | Space Complexity |
 | -------- | ---------------- | ---------------- |
-| Longest Substring Without Repeating Characters (LC 3) | O(n) | O(min(n, charset)) |
-| Maximum Points You Can Obtain from Cards (LC 1423) | O(k) | O(1) |
+| Longest Substring Without Repeating Characters (LC 3) | **O(n)** | **O(min(n, charset))** |
+| Max Consecutive Ones III (LC 1004) | **O(n)** | **O(1)** |
+| Maximum Points You Can Obtain from Cards (LC 1423) | **O(k)** | **O(1)** |
 
 ---
 
-> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Hash Maps, Running Sum optimization, Prefix observations, and efficient array/string optimization patterns.
-```
+> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Hash Maps, Running Sum optimization, Zero Count Tracking, Window Expansion & Contraction, Prefix observations, and efficient array/string optimization patterns.
