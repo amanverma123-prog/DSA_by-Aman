@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Two%20Pointers%20%26%20Sliding%20Window-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-3%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-4%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -23,6 +23,7 @@
 | - | ------- | ---- |
 | 3 | Longest Substring Without Repeating Characters | `LC3_LongestSubstringWithoutRepeatingCharacters.cpp` |
 | 1004 | Max Consecutive Ones III | `LC1004_MaxConsecutiveOnesIII.cpp` |
+| 1358 | Number of Substrings Containing All Three Characters | `LC1358_NumberOfSubstringsContainingAllThreeCharacters.cpp` |
 | 1423 | Maximum Points You Can Obtain from Cards | `LC1423_MaximumPointsYouCanObtainFromCards.cpp` |
 
 ---
@@ -31,7 +32,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 3 |
+| Problems Solved | 4 |
 | Pattern Groups | 2 |
 | Language | C++ |
 
@@ -52,6 +53,9 @@
 * Learning to maintain a window with at most **k** invalid elements (zeros)
 * Expanding and shrinking the sliding window based on constraints
 * Tracking the count of zeros to determine window validity
+* Using the **last occurrence (last seen)** technique to count valid substrings efficiently
+* Counting substring contributions using the minimum last seen index
+* Eliminating brute-force substring enumeration with an **O(n)** solution
 * Solving binary array optimization problems in linear time
 * Eliminating redundant computations using a sliding window approach
 * Applying constant-space optimization where applicable
@@ -80,6 +84,8 @@
 * Array Optimization
 * String Processing
 * Greedy Observation
+* Contribution Counting
+* Last Seen Index Technique
 * Constant Space Optimization
 * Time and Space Complexity Analysis
 
@@ -91,8 +97,9 @@
 | -------- | ---------------- | ---------------- |
 | Longest Substring Without Repeating Characters (LC 3) | **O(n)** | **O(min(n, charset))** |
 | Max Consecutive Ones III (LC 1004) | **O(n)** | **O(1)** |
+| Number of Substrings Containing All Three Characters (LC 1358) | **O(n)** | **O(1)** |
 | Maximum Points You Can Obtain from Cards (LC 1423) | **O(k)** | **O(1)** |
 
 ---
 
-> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Hash Maps, Running Sum optimization, Zero Count Tracking, Window Expansion & Contraction, Prefix observations, and efficient array/string optimization patterns.
+> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Last Seen Index optimization, Hash Maps, Running Sum optimization, Contribution Counting, Window Expansion & Contraction, Prefix observations, and efficient array/string optimization patterns.
