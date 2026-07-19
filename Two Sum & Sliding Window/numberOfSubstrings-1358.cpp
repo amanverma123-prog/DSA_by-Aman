@@ -1,7 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
-// // Brute Force --> TC = O(n^2), SC = O(1)
+// Brute Force --> TC = O(n^2), SC = O(1)
 // int numberOfSubstrings(string s) {
 //     int n = s.size();
 //     int cnt = 0;
