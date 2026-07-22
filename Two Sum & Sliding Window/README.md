@@ -1,5 +1,5 @@
 # 🔀 Striver's DSA — Two Pointers & Sliding Window
-
+ 
 > C++ solutions from Striver's DSA Sheet and related Two Pointers & Sliding Window problems, organized by fundamental patterns and optimization techniques.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
