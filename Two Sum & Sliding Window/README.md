@@ -1,10 +1,10 @@
 # 🔀 Striver's DSA — Two Pointers & Sliding Window
- 
+
 > C++ solutions from Striver's DSA Sheet and related Two Pointers & Sliding Window problems, organized by fundamental patterns and optimization techniques.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Two%20Pointers%20%26%20Sliding%20Window-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-6%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-7%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -24,6 +24,7 @@
 | 3 | Longest Substring Without Repeating Characters | `LC3_LongestSubstringWithoutRepeatingCharacters.cpp` |
 | 424 | Longest Repeating Character Replacement | `LC424_LongestRepeatingCharacterReplacement.cpp` |
 | 930 | Binary Subarrays With Sum | `LC930_BinarySubarraysWithSum.cpp` |
+| 992 | Subarrays with K Different Integers | `LC992_SubarraysWithKDifferentIntegers.cpp` |
 | 1004 | Max Consecutive Ones III | `LC1004_MaxConsecutiveOnesIII.cpp` |
 | 1358 | Number of Substrings Containing All Three Characters | `LC1358_NumberOfSubstringsContainingAllThreeCharacters.cpp` |
 | 1423 | Maximum Points You Can Obtain from Cards | `LC1423_MaximumPointsYouCanObtainFromCards.cpp` |
@@ -34,7 +35,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 6 |
+| Problems Solved | 7 |
 | Pattern Groups | 2 |
 | Language | C++ |
 
@@ -65,8 +66,12 @@
 * Applying constant-space optimization where applicable
 * Understanding why maintaining a non-decreasing maximum frequency enables an optimal linear-time solution
 * Applying the **At Most K** technique to count subarrays efficiently
-* Converting **exactly K** problems into **atMost(K) − atMost(K − 1)**
-* Understanding why sliding window works only for non-negative (binary) arrays
+* Converting **Exactly K** problems into **atMost(K) − atMost(K − 1)**
+* Maintaining the count of distinct elements using a frequency hash map
+* Counting all valid subarrays ending at the current index using **(right − left + 1)**
+* Understanding how dynamic window shrinking preserves the distinct element constraint
+* Applying inclusion–exclusion to derive exact answers from helper functions
+* Understanding why sliding window works only for non-negative (binary) arrays where applicable
 * Improving brute-force solutions to efficient linear-time approaches
 * Identifying the correct sliding window pattern for fixed and variable window problems
 * Strengthening problem-solving skills through pattern recognition
@@ -81,6 +86,7 @@
 * Variable Size Sliding Window
 * Running Sum
 * Hash Map
+* Frequency Hash Map
 * Frequency Array
 * Maximum Frequency Tracking
 * Character Replacement Strategy
@@ -98,7 +104,10 @@
 * Contribution Counting
 * Last Seen Index Technique
 * At Most K Technique
-* Exact Count via Difference of Two Windows
+* Distinct Element Counting
+* Dynamic Window Shrinking
+* Exactly K via Difference of Two Windows
+* Inclusion–Exclusion Principle
 * Binary Array Optimization
 * Constant Space Optimization
 * Time and Space Complexity Analysis
@@ -112,10 +121,11 @@
 | Longest Substring Without Repeating Characters (LC 3) | **O(n)** | **O(min(n, charset))** |
 | Longest Repeating Character Replacement (LC 424) | **O(n)** | **O(1)** |
 | Binary Subarrays With Sum (LC 930) | **O(n)** | **O(1)** |
+| Subarrays with K Different Integers (LC 992) | **O(n)** | **O(k)** *(O(n) worst case)* |
 | Max Consecutive Ones III (LC 1004) | **O(n)** | **O(1)** |
 | Number of Substrings Containing All Three Characters (LC 1358) | **O(n)** | **O(1)** |
 | Maximum Points You Can Obtain from Cards (LC 1423) | **O(k)** | **O(1)** |
 
 ---
 
-> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Frequency Arrays, Maximum Frequency Tracking, Character Replacement optimization, Last Seen Index optimization, Hash Maps, Running Sum optimization, Contribution Counting, Window Expansion & Contraction, At Most K optimization, Exact Count via Difference of Two Windows, Prefix observations, and efficient array/string optimization patterns.
+> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Frequency Arrays, Frequency Hash Maps, Maximum Frequency Tracking, Character Replacement optimization, Last Seen Index optimization, Running Sum optimization, Contribution Counting, Window Expansion & Contraction, At Most K optimization, Exactly K via Difference of Two Windows, Distinct Element Counting, Inclusion–Exclusion Principle, Prefix observations, and efficient array/string optimization patterns.
