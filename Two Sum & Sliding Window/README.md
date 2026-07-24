@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Two%20Pointers%20%26%20Sliding%20Window-orange?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-7%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-8%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -22,6 +22,7 @@
 | # | Problem | File |
 | - | ------- | ---- |
 | 3 | Longest Substring Without Repeating Characters | `LC3_LongestSubstringWithoutRepeatingCharacters.cpp` |
+| 76 | Minimum Window Substring | `LC76_MinimumWindowSubstring.cpp` |
 | 424 | Longest Repeating Character Replacement | `LC424_LongestRepeatingCharacterReplacement.cpp` |
 | 930 | Binary Subarrays With Sum | `LC930_BinarySubarraysWithSum.cpp` |
 | 992 | Subarrays with K Different Integers | `LC992_SubarraysWithKDifferentIntegers.cpp` |
@@ -35,7 +36,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 7 |
+| Problems Solved | 8 |
 | Pattern Groups | 2 |
 | Language | C++ |
 
@@ -72,6 +73,10 @@
 * Understanding how dynamic window shrinking preserves the distinct element constraint
 * Applying inclusion–exclusion to derive exact answers from helper functions
 * Understanding why sliding window works only for non-negative (binary) arrays where applicable
+* Maintaining character frequencies using a fixed-size frequency array
+* Tracking the number of remaining required characters to validate the window
+* Finding the minimum valid window by greedily shrinking from the left
+* Handling duplicate characters correctly using frequency counting
 * Improving brute-force solutions to efficient linear-time approaches
 * Identifying the correct sliding window pattern for fixed and variable window problems
 * Strengthening problem-solving skills through pattern recognition
@@ -109,6 +114,10 @@
 * Exactly K via Difference of Two Windows
 * Inclusion–Exclusion Principle
 * Binary Array Optimization
+* Minimum Window Optimization
+* Character Frequency Tracking
+* Window Validity Checking
+* Greedy Window Contraction
 * Constant Space Optimization
 * Time and Space Complexity Analysis
 
@@ -119,6 +128,7 @@
 | Problem | Time Complexity | Space Complexity |
 | -------- | ---------------- | ---------------- |
 | Longest Substring Without Repeating Characters (LC 3) | **O(n)** | **O(min(n, charset))** |
+| Minimum Window Substring (LC 76) | **O(n)** | **O(1)** |
 | Longest Repeating Character Replacement (LC 424) | **O(n)** | **O(1)** |
 | Binary Subarrays With Sum (LC 930) | **O(n)** | **O(1)** |
 | Subarrays with K Different Integers (LC 992) | **O(n)** | **O(k)** *(O(n) worst case)* |
@@ -128,4 +138,4 @@
 
 ---
 
-> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Frequency Arrays, Frequency Hash Maps, Maximum Frequency Tracking, Character Replacement optimization, Last Seen Index optimization, Running Sum optimization, Contribution Counting, Window Expansion & Contraction, At Most K optimization, Exactly K via Difference of Two Windows, Distinct Element Counting, Inclusion–Exclusion Principle, Prefix observations, and efficient array/string optimization patterns.
+> 📌 Updated regularly as part of my ongoing DSA journey through Striver's A2Z DSA Sheet and LeetCode. This section covers Two Pointer techniques, Fixed & Variable Sliding Window, Frequency Arrays, Frequency Hash Maps, Maximum Frequency Tracking, Character Replacement optimization, Last Seen Index optimization, Running Sum optimization, Contribution Counting, Window Expansion & Contraction, At Most K optimization, Exactly K via Difference of Two Windows, Distinct Element Counting, Inclusion–Exclusion Principle, Minimum Window optimization, Character Frequency Tracking, Greedy Window Contraction, Prefix observations, and efficient array/string optimization patterns.
