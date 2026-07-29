@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-2%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-4%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -15,7 +15,9 @@
 
 | # | Problem | File |
 | - | ------- | ---- |
-| LC 144 | Binary Tree Preorder Traversal | `preorderTraversa-144.cpp` |
+| LC 94 | Binary Tree Inorder Traversal | `inOrderTraversal-94.cpp` |
+| LC 144 | Binary Tree Preorder Traversal | `preorderTraversal-144.cpp` |
+| LC 145 | Binary Tree Postorder Traversal | `postorderTraversal-145.cpp` |
 | — | Inorder, Preorder & Postorder Traversal | `in-pre-post_traversal.cpp` |
 
 ---
@@ -24,7 +26,7 @@
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 2 |
+| Problems Solved | 4 |
 | Pattern Groups | 1 |
 | Language | C++ |
 
@@ -36,19 +38,17 @@
 * Preorder traversal (Root → Left → Right)
 * Inorder traversal (Left → Root → Right)
 * Postorder traversal (Left → Right → Root)
-* Recursive depth-first traversal (DFS)
-* Passing vectors by reference for optimal `O(n)` traversal
-* Difference between recursive traversal and returning vectors
-* Understanding recursion stack in tree problems
-* Building intuition for Binary Tree recursion
-* Foundation for advanced tree algorithms (BFS, BST, LCA, Diameter, etc.)
+* Recursive Depth-First Search (DFS)
+* Passing vectors by reference for optimal **O(n)** traversal
+* Understanding recursion stack space in tree traversals
+* Difference between recursive traversal and iterative traversal
+* Building intuition for recursive tree processing
+* Foundation for advanced Binary Tree and Binary Search Tree problems
 
 ---
 
 ## 📚 Upcoming Topics
 
-- Binary Tree Inorder Traversal (LC 94)
-- Binary Tree Postorder Traversal (LC 145)
 - Level Order Traversal (LC 102)
 - Maximum Depth of Binary Tree (LC 104)
 - Balanced Binary Tree (LC 110)
@@ -56,6 +56,7 @@
 - Same Tree (LC 100)
 - Symmetric Tree (LC 101)
 - Binary Tree Zigzag Level Order Traversal (LC 103)
+- Binary Tree Right Side View (LC 199)
 - Boundary Traversal
 - Vertical Order Traversal
 - Top View & Bottom View
@@ -63,6 +64,18 @@
 - Lowest Common Ancestor (LC 236)
 - Maximum Path Sum (LC 124)
 - Serialize & Deserialize Binary Tree (LC 297)
+
+---
+
+## 🚀 Progress Roadmap
+
+- ✅ Binary Tree Traversals
+- ⏳ Breadth-First Search (BFS)
+- ⏳ Tree Properties
+- ⏳ Views of Binary Tree
+- ⏳ Binary Search Trees (BST)
+- ⏳ Lowest Common Ancestor (LCA)
+- ⏳ Advanced Binary Tree Problems
 
 ---
 
