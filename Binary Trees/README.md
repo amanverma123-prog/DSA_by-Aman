@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-4%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-5%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -20,14 +20,20 @@
 | LC 145 | Binary Tree Postorder Traversal | `postorderTraversal-145.cpp` |
 | — | Inorder, Preorder & Postorder Traversal | `in-pre-post_traversal.cpp` |
 
+### 📌 Breadth-First Search (BFS)
+
+| # | Problem | File |
+| - | ------- | ---- |
+| LC 102 | Binary Tree Level Order Traversal | `levelOrderTraversal-102.cpp` |
+
 ---
 
 ## 📈 Progress
 
 | Metric | Value |
 | ------ | ----- |
-| Problems Solved | 4 |
-| Pattern Groups | 1 |
+| Problems Solved | 5 |
+| Pattern Groups | 2 |
 | Language | C++ |
 
 ---
@@ -38,18 +44,20 @@
 * Preorder traversal (Root → Left → Right)
 * Inorder traversal (Left → Root → Right)
 * Postorder traversal (Left → Right → Root)
+* Breadth-First Search (BFS) using Queue
+* Processing nodes level by level using queue size
+* Storing each level separately in a 2D vector
 * Recursive Depth-First Search (DFS)
 * Passing vectors by reference for optimal **O(n)** traversal
 * Understanding recursion stack space in tree traversals
-* Difference between recursive traversal and iterative traversal
-* Building intuition for recursive tree processing
+* Difference between recursive traversal (DFS) and iterative level-order traversal (BFS)
+* Building intuition for both DFS and BFS tree processing
 * Foundation for advanced Binary Tree and Binary Search Tree problems
 
 ---
 
 ## 📚 Upcoming Topics
 
-- Level Order Traversal (LC 102)
 - Maximum Depth of Binary Tree (LC 104)
 - Balanced Binary Tree (LC 110)
 - Diameter of Binary Tree (LC 543)
@@ -70,7 +78,7 @@
 ## 🚀 Progress Roadmap
 
 - ✅ Binary Tree Traversals
-- ⏳ Breadth-First Search (BFS)
+- ✅ Breadth-First Search (BFS)
 - ⏳ Tree Properties
 - ⏳ Views of Binary Tree
 - ⏳ Binary Search Trees (BST)
