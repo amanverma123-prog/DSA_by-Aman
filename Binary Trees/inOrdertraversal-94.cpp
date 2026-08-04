@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<stack>
 using namespace std;
 struct TreeNode{
     int data;
@@ -13,20 +14,43 @@ struct TreeNode{
     }
 };
 
-void inOrder(TreeNode* root, vector<int>& ans) {
-        if (root == NULL)
-            return;
+// Recursive Apporach --> TC = O(n), SC = O(n)
+// void inorder(TreeNode* root, vector<int>& ans) {
+//         if (root == NULL)
+//             return;
 
-        inOrder(root->left, ans);
-        ans.push_back(root->data);
-        inOrder(root->right, ans);
-    }
-    vector<int> inOrderTraversal(TreeNode* root) {
-        vector<int> ans;
-        inOrder(root, ans);
+//         inOrder(root->left, ans);
+//         ans.push_back(root->data);
+//         inOrder(root->right, ans);
+//     }
+// vector<int> inOrderTraversal(TreeNode* root) {
+//     vector<int> ans;
+//     inOrder(root, ans);
+//     return ans;
+// }
 
-        return ans;
+// Iterative Approach --> TC = O(n), SC = O(n)
+vector<int> inorderTraversal(TreeNode* root) {
+    stack<TreeNode*> st;
+    TreeNode* node = root;
+    vector<int> ans;
+
+    while (true) {
+        if (node != NULL) {
+            st.push(node);
+            node = node->left;
+        } else {
+            if (st.empty())
+                break;
+            node = st.top();
+            st.pop();
+            ans.push_back(node->data);
+            node = node->right;
+        }
     }
+    return ans;
+}
+
 int main(){
     // Construct the tree
         //
@@ -51,7 +75,7 @@ int main(){
     root->right->right = new TreeNode(8);
     root->right->right->left = new TreeNode(9);
 
-    vector<int> preTraversal = inOrderTraversal(root);
+    vector<int> preTraversal = inorderTraversal(root);
 
     for(int i : preTraversal){
         cout<<i<<" ";

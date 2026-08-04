@@ -14,6 +14,7 @@ struct TreeNode{
     }
 };
 
+// TC = O(n), SC = O(n)
 vector<vector<int>> levelOrder(TreeNode* root) {
     vector<vector<int>> ans;
     if (root == NULL)
