@@ -1,62 +1,71 @@
 # 🌳 Striver's DSA — Binary Trees
 
-> C++ solutions from Striver's DSA Sheet and related Binary Tree problems, organized by traversal techniques and fundamental tree concepts.
+> C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, and fundamental tree concepts.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-5%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-7%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
 
-## 📁 Problems Solved
+# 📁 Problems Solved
 
-### 📌 Tree Traversals
+## 📌 Tree Traversals
 
 | # | Problem | File |
-| - | ------- | ---- |
+|---|---------|------|
 | LC 94 | Binary Tree Inorder Traversal | `inOrderTraversal-94.cpp` |
 | LC 144 | Binary Tree Preorder Traversal | `preorderTraversal-144.cpp` |
 | LC 145 | Binary Tree Postorder Traversal | `postorderTraversal-145.cpp` |
-| — | Inorder, Preorder & Postorder Traversal | `in-pre-post_traversal.cpp` |
+| — | Inorder, Preorder & Postorder Traversal (Single Traversal) | `in-pre-post_traversal.cpp` |
 
-### 📌 Breadth-First Search (BFS)
+---
+
+## 📌 Breadth-First Search (BFS)
 
 | # | Problem | File |
-| - | ------- | ---- |
+|---|---------|------|
 | LC 102 | Binary Tree Level Order Traversal | `levelOrderTraversal-102.cpp` |
 
 ---
 
-## 📈 Progress
+## 📌 Tree DFS
+
+| # | Problem | File |
+|---|---------|------|
+| LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp` |
+
+---
+
+# 📈 Progress
 
 | Metric | Value |
-| ------ | ----- |
-| Problems Solved | 5 |
-| Pattern Groups | 2 |
-| Language | C++ |
+|--------|-------|
+| Problems Solved | **7** |
+| Pattern Groups | **3** |
+| Language | **C++** |
 
 ---
 
-## 💡 Key Learnings
+# 💡 Key Learnings
 
-* Binary Tree node structure and recursive traversal
-* Preorder traversal (Root → Left → Right)
-* Inorder traversal (Left → Root → Right)
-* Postorder traversal (Left → Right → Root)
-* Breadth-First Search (BFS) using Queue
-* Processing nodes level by level using queue size
-* Storing each level separately in a 2D vector
-* Recursive Depth-First Search (DFS)
-* Passing vectors by reference for optimal **O(n)** traversal
-* Understanding recursion stack space in tree traversals
-* Difference between recursive traversal (DFS) and iterative level-order traversal (BFS)
-* Building intuition for both DFS and BFS tree processing
-* Foundation for advanced Binary Tree and Binary Search Tree problems
+- Binary Tree node representation
+- Recursive Depth-First Search (DFS)
+- Breadth-First Search (BFS) using Queue
+- Inorder, Preorder and Postorder traversals
+- Single traversal to generate all three DFS traversals
+- Level Order Traversal using queue
+- Processing nodes level-by-level
+- Tree recursion and recursion stack analysis
+- Passing vectors by reference for efficient traversal
+- Using ancestor information during DFS recursion
+- Solving tree problems using parent and grandparent relationships
+- Building intuition for recursive tree-based algorithms
 
 ---
 
-## 📚 Upcoming Topics
+# 📚 Upcoming Topics
 
 - Maximum Depth of Binary Tree (LC 104)
 - Balanced Binary Tree (LC 110)
@@ -75,14 +84,15 @@
 
 ---
 
-## 🚀 Progress Roadmap
+# 🚀 Progress Roadmap
 
-- ✅ Binary Tree Traversals
+- ✅ Tree Traversals
 - ✅ Breadth-First Search (BFS)
+- ✅ Tree DFS Basics
 - ⏳ Tree Properties
-- ⏳ Views of Binary Tree
-- ⏳ Binary Search Trees (BST)
+- ⏳ Binary Tree Views
 - ⏳ Lowest Common Ancestor (LCA)
+- ⏳ Binary Search Trees (BST)
 - ⏳ Advanced Binary Tree Problems
 
 ---
