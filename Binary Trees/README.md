@@ -1,10 +1,10 @@
 # 🌳 Striver's DSA — Binary Trees
 
-> C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, and fundamental tree concepts.
+> C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, recursion, and fundamental tree concepts.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-7%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-8%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -34,6 +34,7 @@
 
 | # | Problem | File |
 |---|---------|------|
+| LC 104 | Maximum Depth of Binary Tree | `maximumDepth-104.cpp` |
 | LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp` |
 
 ---
@@ -42,7 +43,7 @@
 
 | Metric | Value |
 |--------|-------|
-| Problems Solved | **7** |
+| Problems Solved | **8** |
 | Pattern Groups | **3** |
 | Language | **C++** |
 
@@ -61,13 +62,13 @@
 - Passing vectors by reference for efficient traversal
 - Using ancestor information during DFS recursion
 - Solving tree problems using parent and grandparent relationships
+- Computing tree height using recursive divide-and-conquer
 - Building intuition for recursive tree-based algorithms
 
 ---
 
 # 📚 Upcoming Topics
 
-- Maximum Depth of Binary Tree (LC 104)
 - Balanced Binary Tree (LC 110)
 - Diameter of Binary Tree (LC 543)
 - Same Tree (LC 100)
@@ -89,7 +90,7 @@
 - ✅ Tree Traversals
 - ✅ Breadth-First Search (BFS)
 - ✅ Tree DFS Basics
-- ⏳ Tree Properties
+- ✅ Tree Properties (Maximum Depth)
 - ⏳ Binary Tree Views
 - ⏳ Lowest Common Ancestor (LCA)
 - ⏳ Binary Search Trees (BST)
