@@ -2,50 +2,46 @@
 
 > C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, recursion, and fundamental tree concepts.
 
-![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
-![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-8%20Problems-purple?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
-
 ---
 
 # 📁 Problems Solved
 
 ## 📌 Tree Traversals
 
-| # | Problem | File |
-|---|---------|------|
-| LC 94 | Binary Tree Inorder Traversal | `inOrderTraversal-94.cpp` |
-| LC 144 | Binary Tree Preorder Traversal | `preorderTraversal-144.cpp` |
-| LC 145 | Binary Tree Postorder Traversal | `postorderTraversal-145.cpp` |
-| — | Inorder, Preorder & Postorder Traversal (Single Traversal) | `in-pre-post_traversal.cpp` |
+| #      | Problem                                                    | File                         |
+| ------ | ---------------------------------------------------------- | ---------------------------- |
+| LC 94  | Binary Tree Inorder Traversal                              | `inOrderTraversal-94.cpp`    |
+| LC 144 | Binary Tree Preorder Traversal                             | `preorderTraversal-144.cpp`  |
+| LC 145 | Binary Tree Postorder Traversal                            | `postorderTraversal-145.cpp` |
+| —      | Inorder, Preorder & Postorder Traversal (Single Traversal) | `in-pre-post_traversal.cpp`  |
 
 ---
 
 ## 📌 Breadth-First Search (BFS)
 
-| # | Problem | File |
-|---|---------|------|
+| #      | Problem                           | File                          |
+| ------ | --------------------------------- | ----------------------------- |
 | LC 102 | Binary Tree Level Order Traversal | `levelOrderTraversal-102.cpp` |
 
 ---
 
 ## 📌 Tree DFS
 
-| # | Problem | File |
-|---|---------|------|
-| LC 104 | Maximum Depth of Binary Tree | `maximumDepth-104.cpp` |
-| LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp` |
+| #       | Problem                                   | File                           |
+| ------- | ----------------------------------------- | ------------------------------ |
+| LC 104  | Maximum Depth of Binary Tree              | `maximumDepth-104.cpp`          |
+| LC 110  | Balanced Binary Tree                      | `balancedBinaryTree-110.cpp`    |
+| LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp`   |
 
 ---
 
 # 📈 Progress
 
-| Metric | Value |
-|--------|-------|
-| Problems Solved | **8** |
-| Pattern Groups | **3** |
-| Language | **C++** |
+| Metric          | Value   |
+| --------------- | ------- |
+| Problems Solved | **9**   |
+| Pattern Groups  | **4**   |
+| Language        | **C++** |
 
 ---
 
@@ -63,13 +59,15 @@
 - Using ancestor information during DFS recursion
 - Solving tree problems using parent and grandparent relationships
 - Computing tree height using recursive divide-and-conquer
+- Checking whether a binary tree is height-balanced
+- Optimizing recursive solutions using sentinel values (`-1`)
+- Combining height calculation and balance validation in a single DFS traversal
 - Building intuition for recursive tree-based algorithms
 
 ---
 
 # 📚 Upcoming Topics
 
-- Balanced Binary Tree (LC 110)
 - Diameter of Binary Tree (LC 543)
 - Same Tree (LC 100)
 - Symmetric Tree (LC 101)
@@ -90,7 +88,7 @@
 - ✅ Tree Traversals
 - ✅ Breadth-First Search (BFS)
 - ✅ Tree DFS Basics
-- ✅ Tree Properties (Maximum Depth)
+- ✅ Tree Properties (Maximum Depth & Balanced Binary Tree)
 - ⏳ Binary Tree Views
 - ⏳ Lowest Common Ancestor (LCA)
 - ⏳ Binary Search Trees (BST)
