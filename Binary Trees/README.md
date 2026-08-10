@@ -2,11 +2,6 @@
 
 > C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, recursion, and fundamental tree concepts.
 
-![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
-![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-10%20Problems-purple?style=flat-square)
-![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
-
 ---
 
 # 📁 Problems Solved
@@ -32,12 +27,13 @@
 
 ## 📌 Tree DFS
 
-| #       | Problem                                   | File                          |
-| ------- | ----------------------------------------- | ----------------------------- |
-| LC 104  | Maximum Depth of Binary Tree              | `maximumDepth-104.cpp`        |
-| LC 110  | Balanced Binary Tree                      | `balancedBinaryTree-110.cpp`  |
-| LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp` |
+| #       | Problem                                   | File                           |
+| ------- | ----------------------------------------- | ------------------------------ |
+| LC 104  | Maximum Depth of Binary Tree              | `maximumDepth-104.cpp`         |
+| LC 110  | Balanced Binary Tree                      | `balancedBinaryTree-110.cpp`   |
+| LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp`  |
 | LC 543  | Diameter of Binary Tree                   | `diameterOfBinaryTree-543.cpp` |
+| LC 124  | Binary Tree Maximum Path Sum              | `maxPathSum-124.cpp`           |
 
 ---
 
@@ -45,7 +41,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **10**  |
+| Problems Solved | **11**  |
 | Pattern Groups  | **4**   |
 | Language        | **C++** |
 
@@ -71,7 +67,11 @@
 - Calculating the diameter of a binary tree using subtree heights
 - Understanding that the diameter can pass through any node, not just the root
 - Tracking the maximum diameter during a single DFS traversal
-- Building intuition for recursive tree-based algorithms
+- Calculating maximum path sum using postorder DFS
+- Ignoring negative subtree contributions using `max(0, ...)`
+- Understanding the difference between a downward path and a path passing through a node
+- Using a global/reference variable to track the maximum path sum
+- Building intuition for recursive tree-based dynamic programming
 
 ---
 
@@ -86,7 +86,6 @@
 - Top View & Bottom View
 - Left View & Right View
 - Lowest Common Ancestor (LC 236)
-- Maximum Path Sum (LC 124)
 - Serialize & Deserialize Binary Tree (LC 297)
 
 ---
@@ -98,6 +97,7 @@
 - ✅ Tree DFS Basics
 - ✅ Tree Properties (Maximum Depth & Balanced Binary Tree)
 - ✅ Diameter of Binary Tree
+- ✅ Maximum Path Sum
 - ⏳ Binary Tree Views
 - ⏳ Lowest Common Ancestor (LCA)
 - ⏳ Binary Search Trees (BST)
