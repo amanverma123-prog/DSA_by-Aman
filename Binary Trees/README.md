@@ -2,6 +2,11 @@
 
 > C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, recursion, and fundamental tree concepts.
 
+![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
+![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-teal?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-11%20Problems-green?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
+
 ---
 
 # 📁 Problems Solved
