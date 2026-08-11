@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-11%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-12%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -39,6 +39,7 @@
 | LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp`  |
 | LC 543  | Diameter of Binary Tree                   | `diameterOfBinaryTree-543.cpp` |
 | LC 124  | Binary Tree Maximum Path Sum              | `maxPathSum-124.cpp`           |
+| LC 100  | Same Tree                                 | `sameTree-100.cpp`             |
 
 ---
 
@@ -46,7 +47,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **11**  |
+| Problems Solved | **12**  |
 | Pattern Groups  | **4**   |
 | Language        | **C++** |
 
@@ -77,12 +78,15 @@
 - Understanding the difference between a downward path and a path passing through a node
 - Using a global/reference variable to track the maximum path sum
 - Building intuition for recursive tree-based dynamic programming
+- Comparing two binary trees recursively
+- Handling null nodes and structural differences during tree comparison
+- Checking both node values and corresponding left/right subtrees
+- Understanding recursive structural equality of binary trees
 
 ---
 
 # 📚 Upcoming Topics
 
-- Same Tree (LC 100)
 - Symmetric Tree (LC 101)
 - Binary Tree Zigzag Level Order Traversal (LC 103)
 - Binary Tree Right Side View (LC 199)
@@ -103,6 +107,7 @@
 - ✅ Tree Properties (Maximum Depth & Balanced Binary Tree)
 - ✅ Diameter of Binary Tree
 - ✅ Maximum Path Sum
+- ✅ Same Tree
 - ⏳ Binary Tree Views
 - ⏳ Lowest Common Ancestor (LCA)
 - ⏳ Binary Search Trees (BST)
