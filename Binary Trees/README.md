@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-12%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-13%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -24,9 +24,10 @@
 
 ## 📌 Breadth-First Search (BFS)
 
-| #      | Problem                           | File                          |
-| ------ | --------------------------------- | ----------------------------- |
-| LC 102 | Binary Tree Level Order Traversal | `levelOrderTraversal-102.cpp` |
+| #      | Problem                                  | File                          |
+| ------ | ---------------------------------------- | ----------------------------- |
+| LC 102 | Binary Tree Level Order Traversal        | `levelOrderTraversal-102.cpp` |
+| LC 103 | Binary Tree Zigzag Level Order Traversal | `zigzagLevelOrder-103.cpp`    |
 
 ---
 
@@ -47,7 +48,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **12**  |
+| Problems Solved | **13**  |
 | Pattern Groups  | **4**   |
 | Language        | **C++** |
 
@@ -82,13 +83,16 @@
 - Handling null nodes and structural differences during tree comparison
 - Checking both node values and corresponding left/right subtrees
 - Understanding recursive structural equality of binary trees
+- Using BFS to process binary tree nodes level-by-level
+- Alternating traversal direction for zigzag level order
+- Using index manipulation to reverse the order of alternate levels
+- Avoiding an additional stack or repeated vector reversal
 
 ---
 
 # 📚 Upcoming Topics
 
 - Symmetric Tree (LC 101)
-- Binary Tree Zigzag Level Order Traversal (LC 103)
 - Binary Tree Right Side View (LC 199)
 - Boundary Traversal
 - Vertical Order Traversal
@@ -108,6 +112,7 @@
 - ✅ Diameter of Binary Tree
 - ✅ Maximum Path Sum
 - ✅ Same Tree
+- ✅ Binary Tree Zigzag Level Order Traversal
 - ⏳ Binary Tree Views
 - ⏳ Lowest Common Ancestor (LCA)
 - ⏳ Binary Search Trees (BST)
