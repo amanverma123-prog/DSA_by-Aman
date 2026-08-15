@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-14%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-15%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -46,9 +46,10 @@
 
 ## 📌 Binary Tree Views
 
-| # | Problem                  | File          |
-| - | ------------------------ | ------------- |
-| — | Top View of Binary Tree | `topView.cpp` |
+| # | Problem                    | File             |
+| - | ------------------------   | -------------    |
+| — | Top View of Binary Tree    | `topView.cpp`    |
+| — | Bottom View of Binary Tree | `bottomView.cpp` |
 
 ---
 
@@ -56,7 +57,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **14**  |
+| Problems Solved | **15**  |
 | Pattern Groups  | **5**   |
 | Language        | **C++** |
 
@@ -107,9 +108,6 @@
 
 - Symmetric Tree (LC 101)
 - Binary Tree Right Side View (LC 199)
-- Boundary Traversal
-- Vertical Order Traversal
-- Bottom View
 - Left View & Right View
 - Lowest Common Ancestor (LC 236)
 - Serialize & Deserialize Binary Tree (LC 297)
@@ -127,9 +125,6 @@
 - ✅ Same Tree
 - ✅ Binary Tree Zigzag Level Order Traversal
 - ✅ Binary Tree Views — Top View
-- ⏳ Boundary Traversal
-- ⏳ Vertical Order Traversal
-- ⏳ Bottom View
 - ⏳ Lowest Common Ancestor (LCA)
 - ⏳ Binary Search Trees (BST)
 - ⏳ Advanced Binary Tree Problems
