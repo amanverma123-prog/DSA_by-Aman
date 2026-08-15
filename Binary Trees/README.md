@@ -1,17 +1,17 @@
 # 🌳 Striver's DSA — Binary Trees
 
-> C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, recursion, and fundamental tree concepts.
+> C++ solutions from Striver's A2Z DSA Sheet and LeetCode Binary Tree problems, covering traversals, BFS, DFS, recursion, tree views, and fundamental tree concepts.
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-13%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-14%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
 
 # 📁 Problems Solved
 
-## 📌 Tree Traversals 
+## 📌 Tree Traversals
 
 | #      | Problem                                                    | File                         |
 | ------ | ---------------------------------------------------------- | ---------------------------- |
@@ -44,12 +44,20 @@
 
 ---
 
+## 📌 Binary Tree Views
+
+| # | Problem                  | File          |
+| - | ------------------------ | ------------- |
+| — | Top View of Binary Tree | `topView.cpp` |
+
+---
+
 # 📈 Progress
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **13**  |
-| Pattern Groups  | **4**   |
+| Problems Solved | **14**  |
+| Pattern Groups  | **5**   |
 | Language        | **C++** |
 
 ---
@@ -87,6 +95,11 @@
 - Alternating traversal direction for zigzag level order
 - Using index manipulation to reverse the order of alternate levels
 - Avoiding an additional stack or repeated vector reversal
+- Using horizontal distance to determine the position of nodes
+- Using BFS to identify the topmost node at each horizontal distance
+- Using a map to store the first node encountered at each horizontal position
+- Understanding how level order traversal helps construct the top view
+- Applying coordinate-based mapping to binary tree view problems
 
 ---
 
@@ -96,7 +109,7 @@
 - Binary Tree Right Side View (LC 199)
 - Boundary Traversal
 - Vertical Order Traversal
-- Top View & Bottom View
+- Bottom View
 - Left View & Right View
 - Lowest Common Ancestor (LC 236)
 - Serialize & Deserialize Binary Tree (LC 297)
@@ -113,7 +126,10 @@
 - ✅ Maximum Path Sum
 - ✅ Same Tree
 - ✅ Binary Tree Zigzag Level Order Traversal
-- ⏳ Binary Tree Views
+- ✅ Binary Tree Views — Top View
+- ⏳ Boundary Traversal
+- ⏳ Vertical Order Traversal
+- ⏳ Bottom View
 - ⏳ Lowest Common Ancestor (LCA)
 - ⏳ Binary Search Trees (BST)
 - ⏳ Advanced Binary Tree Problems
