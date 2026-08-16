@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-15%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-16%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -39,17 +39,18 @@
 | LC 110  | Balanced Binary Tree                      | `balancedBinaryTree-110.cpp`   |
 | LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp`  |
 | LC 543  | Diameter of Binary Tree                   | `diameterOfBinaryTree-543.cpp` |
-| LC 124  | Binary Tree Maximum Path Sum              | `maxPathSum-124.cpp`           |
-| LC 100  | Same Tree                                 | `sameTree-100.cpp`             |
+| LC 124  | Binary Tree Maximum Path Sum              | `maxPathSum-124.cpp`            |
+| LC 100  | Same Tree                                 | `sameTree-100.cpp`              |
 
 ---
 
 ## 📌 Binary Tree Views
 
-| # | Problem                    | File             |
-| - | ------------------------   | -------------    |
-| — | Top View of Binary Tree    | `topView.cpp`    |
-| — | Bottom View of Binary Tree | `bottomView.cpp` |
+| #       | Problem                     | File                     |
+| ------- | --------------------------- | ------------------------ |
+| —       | Top View of Binary Tree     | `topView.cpp`             |
+| —       | Bottom View of Binary Tree  | `bottomView.cpp`          |
+| LC 199  | Binary Tree Right Side View | `rightSideView-199.cpp`  |
 
 ---
 
@@ -57,7 +58,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **15**  |
+| Problems Solved | **16**  |
 | Pattern Groups  | **5**   |
 | Language        | **C++** |
 
@@ -101,13 +102,17 @@
 - Using a map to store the first node encountered at each horizontal position
 - Understanding how level order traversal helps construct the top view
 - Applying coordinate-based mapping to binary tree view problems
+- Using DFS with level tracking to solve the Right Side View
+- Traversing the right subtree before the left subtree to prioritize visible nodes
+- Storing the first node encountered at each depth
+- Understanding how traversal order can determine tree visibility
+- Using recursion depth to represent the current level of the tree
 
 ---
 
 # 📚 Upcoming Topics
 
 - Symmetric Tree (LC 101)
-- Binary Tree Right Side View (LC 199)
 - Left View & Right View
 - Lowest Common Ancestor (LC 236)
 - Serialize & Deserialize Binary Tree (LC 297)
@@ -125,6 +130,7 @@
 - ✅ Same Tree
 - ✅ Binary Tree Zigzag Level Order Traversal
 - ✅ Binary Tree Views — Top View
+- ✅ Binary Tree Right Side View
 - ⏳ Lowest Common Ancestor (LCA)
 - ⏳ Binary Search Trees (BST)
 - ⏳ Advanced Binary Tree Problems
