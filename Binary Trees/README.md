@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-16%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-17%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -39,18 +39,19 @@
 | LC 110  | Balanced Binary Tree                      | `balancedBinaryTree-110.cpp`   |
 | LC 1315 | Sum of Nodes with Even-Valued Grandparent | `sumEvenGrandparent-1315.cpp`  |
 | LC 543  | Diameter of Binary Tree                   | `diameterOfBinaryTree-543.cpp` |
-| LC 124  | Binary Tree Maximum Path Sum              | `maxPathSum-124.cpp`            |
-| LC 100  | Same Tree                                 | `sameTree-100.cpp`              |
+| LC 124  | Binary Tree Maximum Path Sum              | `maxPathSum-124.cpp`           |
+| LC 100  | Same Tree                                 | `sameTree-100.cpp`             |
+| LC 101  | Symmetric Tree                            | `symmetricTree-101.cpp`        |
 
 ---
 
 ## 📌 Binary Tree Views
 
-| #       | Problem                     | File                     |
-| ------- | --------------------------- | ------------------------ |
-| —       | Top View of Binary Tree     | `topView.cpp`             |
-| —       | Bottom View of Binary Tree  | `bottomView.cpp`          |
-| LC 199  | Binary Tree Right Side View | `rightSideView-199.cpp`  |
+| #       | Problem                     | File                    |
+| ------- | --------------------------- | ----------------------- |
+| —       | Top View of Binary Tree     | `topView.cpp`            |
+| —       | Bottom View of Binary Tree  | `bottomView.cpp`         |
+| LC 199  | Binary Tree Right Side View | `rightSideView-199.cpp` |
 
 ---
 
@@ -58,7 +59,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **16**  |
+| Problems Solved | **17**  |
 | Pattern Groups  | **5**   |
 | Language        | **C++** |
 
@@ -93,6 +94,11 @@
 - Handling null nodes and structural differences during tree comparison
 - Checking both node values and corresponding left/right subtrees
 - Understanding recursive structural equality of binary trees
+- Checking binary tree symmetry using recursive mirror comparison
+- Comparing left and right subtrees in opposite directions
+- Handling null nodes and mismatched values as recursion base cases
+- Understanding mirror relationships between corresponding nodes
+- Using recursion to validate structural and value-based symmetry
 - Using BFS to process binary tree nodes level-by-level
 - Alternating traversal direction for zigzag level order
 - Using index manipulation to reverse the order of alternate levels
@@ -112,10 +118,10 @@
 
 # 📚 Upcoming Topics
 
-- Symmetric Tree (LC 101)
-- Left View & Right View
+- Left View of Binary Tree
 - Lowest Common Ancestor (LC 236)
 - Serialize & Deserialize Binary Tree (LC 297)
+- Binary Search Trees (BST)
 
 ---
 
@@ -128,9 +134,11 @@
 - ✅ Diameter of Binary Tree
 - ✅ Maximum Path Sum
 - ✅ Same Tree
+- ✅ Symmetric Tree
 - ✅ Binary Tree Zigzag Level Order Traversal
 - ✅ Binary Tree Views — Top View
 - ✅ Binary Tree Right Side View
+- ⏳ Left View of Binary Tree
 - ⏳ Lowest Common Ancestor (LCA)
 - ⏳ Binary Search Trees (BST)
 - ⏳ Advanced Binary Tree Problems
