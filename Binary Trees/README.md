@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-17%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-19%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -42,6 +42,8 @@
 | LC 124  | Binary Tree Maximum Path Sum              | `maxPathSum-124.cpp`           |
 | LC 100  | Same Tree                                 | `sameTree-100.cpp`             |
 | LC 101  | Symmetric Tree                            | `symmetricTree-101.cpp`        |
+| LC 236  | Lowest Common Ancestor of a Binary Tree   | `lowestCommonAncestor-236.cpp` |
+| —       | All Root-to-Leaf Paths                    | `allRootToLeaf.cpp`            |
 
 ---
 
@@ -59,7 +61,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **17**  |
+| Problems Solved | **19**  |
 | Pattern Groups  | **5**   |
 | Language        | **C++** |
 
@@ -113,13 +115,23 @@
 - Storing the first node encountered at each depth
 - Understanding how traversal order can determine tree visibility
 - Using recursion depth to represent the current level of the tree
+- Finding the Lowest Common Ancestor using recursive DFS
+- Using recursive return values to propagate target nodes upward
+- Understanding how left and right subtree results determine the LCA
+- Identifying the LCA when both target nodes are found in different subtrees
+- Handling `NULL`, `p`, and `q` as recursion base cases
+- Generating all root-to-leaf paths using DFS and backtracking
+- Using a path vector to maintain the current traversal path
+- Identifying leaf nodes using `left == NULL && right == NULL`
+- Using backtracking to remove nodes after exploring a subtree
+- Collecting every root-to-leaf path without using an unnecessary stack
+- Understanding the Choose → Explore → Unchoose recursion pattern
 
 ---
 
 # 📚 Upcoming Topics
 
 - Left View of Binary Tree
-- Lowest Common Ancestor (LC 236)
 - Serialize & Deserialize Binary Tree (LC 297)
 - Binary Search Trees (BST)
 
@@ -138,8 +150,10 @@
 - ✅ Binary Tree Zigzag Level Order Traversal
 - ✅ Binary Tree Views — Top View
 - ✅ Binary Tree Right Side View
+- ✅ All Root-to-Leaf Paths
+- ✅ Lowest Common Ancestor (LCA)
 - ⏳ Left View of Binary Tree
-- ⏳ Lowest Common Ancestor (LCA)
+- ⏳ Serialize & Deserialize Binary Tree
 - ⏳ Binary Search Trees (BST)
 - ⏳ Advanced Binary Tree Problems
 
