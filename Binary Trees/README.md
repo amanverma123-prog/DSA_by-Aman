@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-19%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-20%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -28,6 +28,7 @@
 | ------ | ---------------------------------------- | ----------------------------- |
 | LC 102 | Binary Tree Level Order Traversal        | `levelOrderTraversal-102.cpp` |
 | LC 103 | Binary Tree Zigzag Level Order Traversal | `zigzagLevelOrder-103.cpp`    |
+| LC 662 | Maximum Width of Binary Tree              | `widthOfBinaryTree-662.cpp`   |
 
 ---
 
@@ -61,7 +62,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **19**  |
+| Problems Solved | **20**  |
 | Pattern Groups  | **5**   |
 | Language        | **C++** |
 
@@ -105,6 +106,12 @@
 - Alternating traversal direction for zigzag level order
 - Using index manipulation to reverse the order of alternate levels
 - Avoiding an additional stack or repeated vector reversal
+- Using level-order traversal to calculate the width of a binary tree
+- Assigning virtual indices to nodes based on complete binary tree positions
+- Using normalized indices at each level to prevent integer overflow
+- Calculating width using the difference between the first and last node indices
+- Understanding that missing nodes between two nodes contribute to binary tree width
+- Using `long long` for safe index calculations in deep binary trees
 - Using horizontal distance to determine the position of nodes
 - Using BFS to identify the topmost node at each horizontal distance
 - Using a map to store the first node encountered at each horizontal position
@@ -148,6 +155,7 @@
 - ✅ Same Tree
 - ✅ Symmetric Tree
 - ✅ Binary Tree Zigzag Level Order Traversal
+- ✅ Maximum Width of Binary Tree
 - ✅ Binary Tree Views — Top View
 - ✅ Binary Tree Right Side View
 - ✅ All Root-to-Leaf Paths
