@@ -4,7 +4,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?style=flat-square)
 ![Topic](https://img.shields.io/badge/Topic-Binary%20Trees-green?style=flat-square)
-![Problems](https://img.shields.io/badge/Solved-20%20Problems-purple?style=flat-square)
+![Problems](https://img.shields.io/badge/Solved-21%20Problems-purple?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
 ---
@@ -44,6 +44,7 @@
 | LC 100  | Same Tree                                 | `sameTree-100.cpp`             |
 | LC 101  | Symmetric Tree                            | `symmetricTree-101.cpp`        |
 | LC 236  | Lowest Common Ancestor of a Binary Tree   | `lowestCommonAncestor-236.cpp` |
+| LC 257  | Binary Tree Paths                         | `binaryTreePaths-257.cpp`      |
 | —       | All Root-to-Leaf Paths                    | `allRootToLeaf.cpp`            |
 
 ---
@@ -62,7 +63,7 @@
 
 | Metric          | Value   |
 | --------------- | ------- |
-| Problems Solved | **20**  |
+| Problems Solved | **21**  |
 | Pattern Groups  | **5**   |
 | Language        | **C++** |
 
@@ -127,12 +128,13 @@
 - Understanding how left and right subtree results determine the LCA
 - Identifying the LCA when both target nodes are found in different subtrees
 - Handling `NULL`, `p`, and `q` as recursion base cases
-- Generating all root-to-leaf paths using DFS and backtracking
-- Using a path vector to maintain the current traversal path
+- Generating all root-to-leaf paths using DFS
+- Maintaining the current path as a string during recursive traversal
 - Identifying leaf nodes using `left == NULL && right == NULL`
-- Using backtracking to remove nodes after exploring a subtree
-- Collecting every root-to-leaf path without using an unnecessary stack
-- Understanding the Choose → Explore → Unchoose recursion pattern
+- Appending the current path to the result when a leaf node is reached
+- Building paths dynamically while moving from parent to child
+- Using recursion to explore every possible root-to-leaf path
+- Understanding how DFS can be used for path construction problems
 
 ---
 
@@ -159,6 +161,7 @@
 - ✅ Binary Tree Views — Top View
 - ✅ Binary Tree Right Side View
 - ✅ All Root-to-Leaf Paths
+- ✅ Binary Tree Paths (LC 257)
 - ✅ Lowest Common Ancestor (LCA)
 - ⏳ Left View of Binary Tree
 - ⏳ Serialize & Deserialize Binary Tree
